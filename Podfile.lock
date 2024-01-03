@@ -1,0 +1,45 @@
+PODS:
+  - Base58Swift (2.1.10):
+    - BigInt (~> 5.0.0)
+  - BigInt (5.0.0)
+  - Bip39.swift (0.2.0):
+    - UncommonCrypto (~> 0.2.0)
+  - Blake2 (0.1.2)
+  - Sr25519 (0.2.0):
+    - Sr25519/Sr25519 (= 0.2.0)
+  - Sr25519/CSr25519 (0.2.0):
+    - UncommonCrypto (~> 0.2.1)
+  - Sr25519/Helpers (0.2.0):
+    - Sr25519/CSr25519
+  - Sr25519/Sr25519 (0.2.0):
+    - Sr25519/CSr25519
+    - Sr25519/Helpers
+  - UncommonCrypto (0.2.1)
+
+DEPENDENCIES:
+  - Base58Swift (~> 2.1.10)
+  - Bip39.swift (~> 0.2)
+  - Blake2 (~> 0.1.2)
+  - Sr25519 (~> 0.2)
+  - UncommonCrypto
+
+SPEC REPOS:
+  trunk:
+    - Base58Swift
+    - BigInt
+    - Bip39.swift
+    - Blake2
+    - Sr25519
+    - UncommonCrypto
+
+SPEC CHECKSUMS:
+  Base58Swift: 53d551f0b33d9478fa63b3445e453a772d6b31a7
+  BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
+  Bip39.swift: f46ee4e1e05cfcbc020ae879b74bd0578fc7b440
+  Blake2: f33072b13349da1b8048a2bf26a3a24d4eac6dcc
+  Sr25519: 5343e4c6eed4ffc09fa6906e6b537f5c40a1090d
+  UncommonCrypto: c9751cfec179986ec1fbd112f465036768e4fd67
+
+PODFILE CHECKSUM: d47ec4557f319693ee8e5a22a9de4aac4e375d6c
+
+COCOAPODS: 1.12.1

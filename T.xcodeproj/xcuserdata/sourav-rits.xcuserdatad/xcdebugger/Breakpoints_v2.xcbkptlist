@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "399455A2-1777-4EB5-A9F1-89B13B0D1D96"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF0CEA6F-5DA1-4CD0-849A-2ED155BC9E5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "T/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "createMnemonicAndKeys()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF0CEA6F-5DA1-4CD0-849A-2ED155BC9E5B - fda0a5e14d0e3e3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static T.ContentView.createMnemonicAndKeys() -&gt; ()"
+                  moduleName = "T"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sourav-rits/Documents/Swift/T/T/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "EF0CEA6F-5DA1-4CD0-849A-2ED155BC9E5B - fda0a5e14d0e3eff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static T.ContentView.createMnemonicAndKeys() -&gt; ()"
+                  moduleName = "T"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sourav-rits/Documents/Swift/T/T/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

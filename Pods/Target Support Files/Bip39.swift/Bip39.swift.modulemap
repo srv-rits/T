@@ -1,0 +1,6 @@
+framework module Bip39 {
+  umbrella header "Bip39.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

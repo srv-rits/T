@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-T/Pods-T-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Base58Swift/Base58Swift.framework
+${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework
+${BUILT_PRODUCTS_DIR}/Bip39.swift/Bip39.framework
+${BUILT_PRODUCTS_DIR}/Blake2/Blake2.framework
+${BUILT_PRODUCTS_DIR}/Sr25519/Sr25519.framework
+${BUILT_PRODUCTS_DIR}/UncommonCrypto/UncommonCrypto.framework

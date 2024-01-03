@@ -1,0 +1,2215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008F9301492A85917BEDA4127F47D391 /* blake2s-ref.c in Sources */ = {isa = PBXBuildFile; fileRef = DF06F669FE82B241ADE38610FB5CC113 /* blake2s-ref.c */; };
+		03D97F8EFEE7F886159118D39393B39A /* sr25519-randombytes-default.c in Sources */ = {isa = PBXBuildFile; fileRef = 53DDAFFE87059E5E2EAF28CE10690CAC /* sr25519-randombytes-default.c */; };
+		05856A0718B89D15C57B25FF7059BC0C /* Pods-T-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4179BCF856183DAB9479050AE540C6FC /* Pods-T-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05C6EB9D998C805ADCF844EB3A4E66D1 /* blake2-impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 279EFA97C0381C0D2C22061F03E3425F /* blake2-impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A1E36F469440D93A901A21E38EB4AA6 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 313E6491B0759E5FE771902BF7D433DD /* core.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AC732D779CE825130C909E380492189 /* Bip39.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C14B4102E7E903FD5DF3F74734601984 /* Bip39.swift-dummy.m */; };
+		0B21C9F11506D25DC65813648F1F3678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0B5158A71FBAD8898F383CA215AB2872 /* ristretto255.c in Sources */ = {isa = PBXBuildFile; fileRef = E21811976835B1420DDA5F257F7776CC /* ristretto255.c */; };
+		0D6A61DEEC20BBF3149C267217915D10 /* randombytes_sysrandom.h in Headers */ = {isa = PBXBuildFile; fileRef = C056839B33A9855E21C722B789666111 /* randombytes_sysrandom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1344E60E2F3A8811C56AE2646BE160ED /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79127494255C5F5DB3BFD12E9A09A2A1 /* Strideable.swift */; };
+		1476FA1E31F2DB79274914ADAD76F032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		15A303414BCF1D2D0BF01FF0B6A331F5 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE9DC6B36EB06CDDD38FBDA9E9A8F8 /* Shifts.swift */; };
+		161C4F31926DDFC0465337D0B62F3A4A /* Pods-TTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EABC6B8ECB232DA292ECAB160A4CA5 /* Pods-TTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A92F5502283133C8F6BBC05A636DEC5 /* Sr25519ChainCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30737E0A579865D52DFA46FD1BD383 /* Sr25519ChainCode.swift */; };
+		1F6BAD3CAA580D41005EBFE25E3044DE /* modm-donna-32bit.h in Headers */ = {isa = PBXBuildFile; fileRef = ECDEB781472C79A6096A54480644D2E6 /* modm-donna-32bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		200F28B7D420CDFBF1D0FC59D063A4D5 /* sr25519-donna.h in Headers */ = {isa = PBXBuildFile; fileRef = 864F3F8C7481E9755AAC71A63B3B396C /* sr25519-donna.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		261C8A32380B9DF5E1F690914E570A4F /* Blake2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41BAFD237CAC13563B749115B867450 /* Blake2.swift */; };
+		26EFFAFFEF29D46D3EF5054DDFEB8D00 /* Blake2bp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B5E761E37832435DDD83D85220237F /* Blake2bp.swift */; };
+		2A0753795991E6A3A12912FCCFE8A709 /* curve25519-donna-helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C9D5FA50937A61F0E13D03C5117CB0 /* curve25519-donna-helpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C0AA03692406DEBA7699250996CCB38 /* ed25519-donna.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C263A3FF83DDBDF40585F5EE8727E2A /* ed25519-donna.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CF9A27F97CE74218EE26120129F0402 /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B8CD233CE5206C8847922C543CECCFD /* memzero.c */; };
+		2D48AD750C4D49AE9E475C78F150855B /* BigInt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9175F86E21791548C10EE71C74ED1C3C /* BigInt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3011735D056E4E771CE4B01B14852D86 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D88FD4C87C2FDD0A0113770E933DEB /* Codable.swift */; };
+		3058068B16CD0D6430627BB04B32D09A /* curve25519-donna-sse2.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCBC403198D19A3AA80B8A879999B7B /* curve25519-donna-sse2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32652B0DE545AD226A77A374C8B21638 /* SHA3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E597C2BF63A500C05ACC14A736C4581 /* SHA3.swift */; };
+		33F6FEB53E5082BC08F266AFB77CBFCA /* Pods-TTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CB103D9038B7724BDF30611CD6FD20 /* Pods-TTests-dummy.m */; };
+		3598FA840B6637D496804DBD0C0D3D2A /* Blake2b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A28D23D3070E19F4BCB928CA864A6 /* Blake2b.swift */; };
+		36677DBAA7DB5A73371F472828994741 /* English.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CD0EAFB812A5AEE695BCB9E02B1EE /* English.swift */; };
+		368888B1FA51669A52A04E4C65E2CF6D /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D25474F1EFC4DC498FB9D9BC1E2C7 /* Division.swift */; };
+		382D8D118407192CE61DD26E26CC5813 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = A061A1B03ABB73DB3C7C16778CF1F8A3 /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B16F3C39FAC7D102F63A7CEB52AB824 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB98AF2B9CC1A623BA8FC9A1D7F8566 /* Comparable.swift */; };
+		3D5180C9DAF5FE193B22E27DE08F9BDA /* ed25519-donna-impl-sse2.h in Headers */ = {isa = PBXBuildFile; fileRef = 87648F03433FF7C47CEECC8ED5457648 /* ed25519-donna-impl-sse2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DE78FFA90799EC0E53121F6E0D7444E /* vrf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9653CE1BE16285ECA18DE5A28A186E70 /* vrf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40A1E644104010753F97715036BAB2F9 /* ed25519-hash.h in Headers */ = {isa = PBXBuildFile; fileRef = E446E1E92F5A969BB3ABC1B61C4CE8EA /* ed25519-hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		443B4253849ED84E819948B7F03D3983 /* Sr25519KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8365401EC20107854C31BA101A4CA4 /* Sr25519KeyPair.swift */; };
+		4442C912A9379A306799A9EFEE886CF0 /* blake2b-ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 0989E1831C51757C12BD774F6068A06A /* blake2b-ref.c */; };
+		45E5BC6063E545F80A3C606B52BB2073 /* curve25519-donna-64bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3F98F88BC4E19D0068C69B098A2A9E /* curve25519-donna-64bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4699E4ED3355E4EAD903E7D204C46BCB /* curve25519-donna-32bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABD5234400C7C5EB834D901FDE1B8B7 /* curve25519-donna-32bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48D6A63746DF78C424D02F6FA8BE72E9 /* Sr25519PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA24510BBDB84DE955630E5D2EABB61 /* Sr25519PublicKey.swift */; };
+		495A018AEBB2C4BEC37DAAFA8849DC61 /* Pods-T-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C12B234D20207B8D70CD2B4E8E2924FC /* Pods-T-dummy.m */; };
+		4D90F41CFCF95EE4B2A31A80F3C64CA9 /* ed25519-donna-basepoint-table.h in Headers */ = {isa = PBXBuildFile; fileRef = 894DBDB07E9AA7A084E16D4D8447A970 /* ed25519-donna-basepoint-table.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		527F2C69533B3866914654E4E0087E35 /* sr25519.h in Headers */ = {isa = PBXBuildFile; fileRef = D19BC2FA3B9293628CB2F25E39731DB4 /* sr25519.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52CC650CD019BFAC191208CD0D27C2E4 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB0FD8443B944F77CAA0ABFBA3864B6 /* GCD.swift */; };
+		5437E2657D6DF22E6980537D41736ECA /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EA42AB6E451CB74D8875ED2F946A5B /* Random.swift */; };
+		54FDFE66EE5303D7A2E505E7221B292F /* ristretto255.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A30655D8C6CE39097DD5420462291B0 /* ristretto255.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		568F460613117555C74ED8174B52C2BF /* ed25519-donna-impl-base.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D08F73584E1E8CB6EFD3202E814BAE /* ed25519-donna-impl-base.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57CC0FA84717B38CA7534D0F99BEEFA2 /* blake2sp-ref.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD5628AA628C790D78B5C2FA4CF5FA7 /* blake2sp-ref.c */; };
+		57F1E5F52746DC8F84D46ECCC97E560D /* blake2xb-ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C420DE529D2CD829634B77AC53BEB20 /* blake2xb-ref.c */; };
+		592B662954252BE38ED3E5ABA9C0E1DA /* sr25519-randombytes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1505E994966E59603BFD7BC8085EC0E6 /* sr25519-randombytes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEE6B807A616D5A15C176AAE6712758 /* ed25519-donna-batchverify.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F9097F70574579E25CF5D134127A1E /* ed25519-donna-batchverify.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CFD22BD84D374F36F5078D74E2D37F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D76E2080B1441CC28FF90C58034D045 /* Wordlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9325CB138C998F54FD850A409A4F00DA /* Wordlist.swift */; };
+		5E6CEDDC6904B3E1A614FC731DF7C1CA /* Sr25519Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C89FD881063D25E970908390D530E4A /* Sr25519Signature.swift */; };
+		60873F6774859C1023AF3C305EF324A8 /* ed25519-donna-64bit-sse2.h in Headers */ = {isa = PBXBuildFile; fileRef = 590B7AEB89C5033A6CEF86C70AED3F7D /* ed25519-donna-64bit-sse2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6140D63A9FB5081A927EDE3A5AD783FF /* randombytes_sysrandom.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EEF6026BD1F25B6BC5418A1981F541E /* randombytes_sysrandom.c */; };
+		674C4C76817CBDA3B84AFA7291387277 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E4D4D04D1662BD66BE00C30C728B0 /* SHA2.swift */; };
+		6973B3ADFF27B6DDE4FAB9E20DDA1218 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADEECAC20E6437D56CC8902D547F7F0 /* BigUInt.swift */; };
+		6D51CF5A22EE939A3F90B7DB9D5D1B80 /* Mnemonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D689AA148C6AD388D97E2543AFD0837F /* Mnemonic.swift */; };
+		6EB37E3ACFFC3029E345858C2DF2C848 /* merlin.h in Headers */ = {isa = PBXBuildFile; fileRef = 761D31E3D88BB80CF6A196D28F966970 /* merlin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70D2E47F33DAD588A25142935A8034E4 /* UncommonCrypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6118C7AC72EAB6B375ECDD2034B4A3B8 /* UncommonCrypto-dummy.m */; };
+		7399AB89C3E210CD36DD81845EBCCFB7 /* ed25519-donna-portable-identify.h in Headers */ = {isa = PBXBuildFile; fileRef = D62B9FC0BF2B2FE52ADEF7628E2DC0CC /* ed25519-donna-portable-identify.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		748E4205926AE3A767B96594764DA374 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11348EF454256C2724C640D8746E01FB /* Multiplication.swift */; };
+		7568E5A6D37E42E3C9D3C729038B1DCF /* BigInt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0FDC6B4B24793409A289CB0BA7BAF7 /* BigInt-dummy.m */; };
+		7892F928CDDA5E707931CD8D288F548F /* SecureRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E971254D9E4237068A79639F986C88 /* SecureRandom.swift */; };
+		78EA8C98B4EBEA0E23C6C728540E05BC /* sr25519-hash-custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A1D4175107F7819C6498B213532A93 /* sr25519-hash-custom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79AE9BDC44D06807313375F9C296D636 /* sr25519.c in Sources */ = {isa = PBXBuildFile; fileRef = D218567755467BB20E53F817B5107E21 /* sr25519.c */; };
+		7A6E37AE5ADBFF0EA97AD44216930BED /* Chinese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CE0B117F9D5F5CE7522E7FD8DBAC /* Chinese.swift */; };
+		7BF5DD82B179709EC7BB1DAA6F7E9E8F /* UncommonCrypto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8ED52E89B1AE3820160C92146F36A8 /* UncommonCrypto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CA74976D9D7D5B05BA28B0BB7A8E416 /* blake2bp-ref.c in Sources */ = {isa = PBXBuildFile; fileRef = F0C3EBDFC481A256A9ED879771B2ADBA /* blake2bp-ref.c */; };
+		7D75F103DDF26C3DF207CD5708420773 /* Sr25519Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D5B93D0BACACD8F7EAA9B0FD7C2B6B /* Sr25519Ext.swift */; };
+		80EAA41FD2987210092ACDA222F03274 /* Blake2s.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E11EF0BFA739B8B03BC3B4CD265FEF /* Blake2s.swift */; };
+		8133C7B44995A419AF7BDA7078267732 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767291258B451E05385C7DA12D283178 /* Subtraction.swift */; };
+		833A07B5A2B8D5925749E54A9981085A /* Sr25519-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B40562F9035432B1B0FD68170D9980CE /* Sr25519-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83CA38A33F669BCE24122ED22791EDED /* ed25519-donna-32bit-sse2.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3235CC3DB9A25AD235EB12C0E101BB /* ed25519-donna-32bit-sse2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87A7C7CCAD862D98B881775DA7A71954 /* blake2.h in Headers */ = {isa = PBXBuildFile; fileRef = 829BF30C46FD8FE35371DCA95930FC32 /* blake2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		886A303EE96A4B8C5D1A83519EB7A1E8 /* sr25519-randombytes-default.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E234FE6D7BB6D95790A1319BB046868 /* sr25519-randombytes-default.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E3A719FBCA8BAA4164192F88E645B5 /* Sr25519Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDFE0EA6DDA5F27AAA4398B28F5D05 /* Sr25519Error.swift */; };
+		8B01271594817564A75D9F334E5C1374 /* Base58Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9482683769A6869B1DB6A77A104BED8D /* Base58Swift-dummy.m */; };
+		8B8F79649F359B35FDDFE60AFA8E775E /* ed25519.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA59B0778E10D8BA3420B2E2EEFE678 /* ed25519.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C3F06354A550BAC7C29936FA5041B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		95D273C694751DB12E240899DC42CA0E /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC831061C2C077795BB6AFA927707529 /* Floating Point Conversion.swift */; };
+		9CB112A99D55F03BE9BE6A8D77F98C0F /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 855A670983DC3412D5E0B0EA9B282EC5 /* sha2.c */; };
+		A4A74FFEE969F85D37ADFA0FE47AA263 /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AE4B741E8D2AC953E32D770831A6C1 /* String Conversion.swift */; };
+		A5D18C8782C60EEDF0179A36974BA1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A8C15B429E48AB1EFA3AF8669674720F /* sha3.h in Headers */ = {isa = PBXBuildFile; fileRef = BD246F30A4F76E47FC9966BECF897129 /* sha3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A96274802286BB17F0CADD46D549C551 /* Blake2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05056E57A6CBB2D165331A39597CEDD2 /* Blake2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFD2754A25538D4C66D0EF8D465B0DD /* Sr25519Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F733675B87D66D1154C50D228E02AF5C /* Sr25519Seed.swift */; };
+		ACCD7F6B7A52DDB1995BEC93982EAC8F /* blake2xs-ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB4C72BC7B88E696ABB2A92E16C44 /* blake2xs-ref.c */; };
+		AD5EA7494247D45CE14ABE3D027A86AA /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9412E7BA811D7668B94212D19E5F6D /* PBKDF2.swift */; };
+		AEF6F58E9B11F333E594DF4069673852 /* Blake2sp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FE0ACEC9E4999B9D75EA9F6AF866A5 /* Blake2sp.swift */; };
+		AF25B75F3F88838C64F5CCABDED8CAE0 /* ed25519-donna-64bit-tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4542AFE5640FB57AA9AD06E6420A6C /* ed25519-donna-64bit-tables.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFA88B328CCCAD274E05DFA17D50A783 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00D89BC3B33666BD849597783A8470 /* Integer Conversion.swift */; };
+		AFF6E7EC93E0AEC299E1F438EB7CC762 /* Sr25519Vrf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012004DE72D51DEE6932E342D3E9299 /* Sr25519Vrf.swift */; };
+		B06EE4C1F9297DB09F51ED76ED9A3A47 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3639F55A659F2EBEB5671D4E35CAAD0E /* HMAC.swift */; };
+		B1BD0890BC1505005CF30620CBACCB3A /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722013EED3607F2FF8FA83F8C3CC527F /* Data Conversion.swift */; };
+		B213F4B71A6A142EB3CC78B6B0402778 /* memzero.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E77DC94FC0F1A4AD5D1394FD2D32045 /* memzero.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B348A364AF887724DD29701F241B4621 /* merlin.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B36CC7AC4EF886308DB19F2AFFDB12D /* merlin.c */; };
+		B4FEBEEE41FBB6B335B7FA50353EC87E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B55907A4C9B7387EE21056CEC6833624 /* Bip39.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8395CA45A0888FF4B72D091626C0D5EC /* Bip39.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B67287C762EB8F9D3DA29857707109CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B76C801D53592A85E45CE51016DFE80F /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = 49B13170F4480A8B038B5F4F3AA86C57 /* memzero.c */; };
+		B9CDBB04D4E71A61A91B3992E3FC9581 /* sha3.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DE2E4932CABA9F35412089F4F90CA15 /* sha3.c */; };
+		BA8C2553126C14A78571AAABFE72280B /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E8A3F1F919BDA8072A69D3A4ADC5A /* Exponentiation.swift */; };
+		BAF339F75F063F047E90718FF63282F7 /* ed25519-donna-64bit-x86.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E178B5F14D9B48418A4B7BD5317501 /* ed25519-donna-64bit-x86.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBFF43E64F82F0E26D586F9C4499CD15 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = CFCEE7738FB14974F9F66FAAED04E455 /* core.c */; };
+		BC70FE298E1859BCA9F95611B0E44F20 /* regression.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F57187D528318FE82DE7CADB3E6685 /* regression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCEB7985D820CFEA474E087589C1F18F /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FEB58A2218A9C186F8F1A23622B34C /* Words and Bits.swift */; };
+		C183C4D84FC19BFD1150281653ABF10C /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9D457ED27EFCF4514CA93A037051B6 /* Bitwise Ops.swift */; };
+		C39F9B1F8B1282E279F3E23438F2347C /* Blake2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E035F036253084995BF87B29C1DE28D5 /* Blake2-dummy.m */; };
+		C4931F5DCE20F2926D4FAAB6A35E09AC /* vrf.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C28962F7C300872E9515ADD1B6FFDD9 /* vrf.c */; };
+		C6448572EEC00835A04CD708F3F4CB16 /* Base58Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A96B242695DCBC25B383CB149B3BA8 /* Base58Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE3512E89ED699873E2B0AD27E082187 /* modm-donna-64bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9608AC5727F0A356F50863A16D557287 /* modm-donna-64bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D128580A638CDF7E4DF59848F9FCDC48 /* ed25519-donna-64bit-x86-32bit.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE0305667E8B92166851546A88C0B71 /* ed25519-donna-64bit-x86-32bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1B4D3C34E83B1F411065FB92D36DC33 /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D53770F007CEB1D0B6962A9F529706 /* Prime Test.swift */; };
+		D32F989FF843C18195860C954A198CB3 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053987A33C960AF53AD0BC004A752232 /* Base58.swift */; };
+		D5244FD3F38FEDA3D02727098B0D364D /* pbkdf2.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E96838CAD670AEB023D087B14E1108 /* pbkdf2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B605FDC364E4D2FC548B57B8BDB99B /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = E010897BF7E86AE8D2E8C641AA73F08D /* Square Root.swift */; };
+		DFFAA8681ADBDAFF6B15989D5C0EAD1D /* Blake2xs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1693AFDC9A82F860CFAC4F7160C201D3 /* Blake2xs.swift */; };
+		DFFCBA7B046D527DEAFA0227CF3B7073 /* pbkdf2.c in Sources */ = {isa = PBXBuildFile; fileRef = 0959E9D991DFC1087A22274C026F8CAB /* pbkdf2.c */; };
+		E17BFA75A2FB1569A0C8DD7FCCD4ED35 /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = 171D7F07AFD00BECCFFCAF1CB6E1AA4B /* sha2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20D39024E5AA5B49BB420A0E7109788 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB02CAB8D58258FF04EB7796F2805E3A /* Hashable.swift */; };
+		E2746C94E2E3148BCFF4C0D1CB7C4DB1 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E17D362977F9B9E377408026BCB151 /* Addition.swift */; };
+		E445402A615E0A41B72D4D821D8057A3 /* ed25519-donna-32bit-tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CAF9A4DDA4BE1F0C16DA4D387844B0B /* ed25519-donna-32bit-tables.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4A500C898F4922D5DDC4E07A6B321B5 /* TCArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639AE304020E565A9C093E6406D7657 /* TCArray.swift */; };
+		E53E077CD339774EB132C51E30917CC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E5B1E2ABF7C8AEC9DBE5DD62630B0990 /* ed25519-randombytes-custom.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD535D27E4FD14563E634CB3DF52442 /* ed25519-randombytes-custom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6F0803A2175BF8F1417D4E16F449387 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 35EE894546314A14DBF9AA77488534AE /* hmac.c */; };
+		E9FCA6A5C0BDE0FD1D6BDA372F572681 /* sr25519-randombytes-custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C56EC924F3EC8076530A0BEE30065D /* sr25519-randombytes-custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB715209575D336E23E20929D6BC1086 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C2DB52A99B10181704E3FA02FE836 /* Random.swift */; };
+		EB81BE2FC89828305D51A6D05A7176EC /* memzero.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F360886F1030BAD22871C09DFB14236 /* memzero.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC60F0212E04A9BDB0C0FA39C1E72CCD /* TCArrayPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADF3CA9FBB9EDCC589201E187FE59B /* TCArrayPointer.swift */; };
+		EEBF83B2B10617A59A5E4B3E75054A61 /* ed25519-hash-custom.h in Headers */ = {isa = PBXBuildFile; fileRef = B7AEC82B33E7EE94B2124C9921C38183 /* ed25519-hash-custom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEC0DF4A3B4AD0EE176136CD9EC3DBBB /* ed25519-donna-portable.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2137FE42856E4BA748C11922173269 /* ed25519-donna-portable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F048C2465CB3C593DC7BD0597C32564E /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82327A487D885EA67451C20DAA24C0D /* BigInt.swift */; };
+		F39116CF9735807D201B6CCEE7EE4ACE /* ed25519-randombytes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA54506833FE3CE4017C638ABC079CD /* ed25519-randombytes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F39D141155C1F7B0CD85A40D4E4B0AB7 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15BB2EDE5944681F0F37EBD744FE3C /* SHA1.swift */; };
+		F3F5FEAFDBB6FFDF23C6568192CF0684 /* ed25519.c in Sources */ = {isa = PBXBuildFile; fileRef = E00BB96D95428700687F1B1914EC625F /* ed25519.c */; };
+		F5ABE53606E3DC51097A0DCF0F87A8A9 /* Blake2xb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3331FFADC6C72434B1272C95D4D9281 /* Blake2xb.swift */; };
+		F768B4FAF8F7DB4110076AEC70DB1192 /* sr25519-hash.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE0F3793AB3C5C9C6FB69CFC4779544 /* sr25519-hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA02B5E2CFFA34BCCA5CE74C440CB078 /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4C98F3236EC21D6A4D745A4F16D0DE /* options.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF68F533EBB97A80D9913167C0C29D1F /* Sr25519-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 943CF2AA82807C772BDC1C26BD089278 /* Sr25519-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21DCDD87FF52B6F280FA48290D927441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94C471322178C7292ACC8E75760A581;
+			remoteInfo = Bip39.swift;
+		};
+		49522EE4144E27262F00219D5515B6AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DD83B7D075842A3A5105AD410BD38A;
+			remoteInfo = BigInt;
+		};
+		78000894CC9464A99547340B7176081E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D295043CEF8EB0C96943B7E2A33D1DCA;
+			remoteInfo = "Pods-T";
+		};
+		8BEA836981F131DB36A19F4CF17E2643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BE9E64AA13AC5C466D0A556F4D15857;
+			remoteInfo = Base58Swift;
+		};
+		8E7F612C18E55F586E6EFA431C8C7169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D5C2C962EA99334067E6A53E72861F;
+			remoteInfo = UncommonCrypto;
+		};
+		AA47613B2483EA5D5BD5C7D695B336E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D5C2C962EA99334067E6A53E72861F;
+			remoteInfo = UncommonCrypto;
+		};
+		B69E0D1438E02C641AD5D1D80A8B85FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D5C2C962EA99334067E6A53E72861F;
+			remoteInfo = UncommonCrypto;
+		};
+		C256F6FA720068A5625DFF1F5DEEE91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6344E5B3CD3A4F8CC29536272CA6B04C;
+			remoteInfo = Sr25519;
+		};
+		E15642A5498D0376432D67193C2C16A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DD83B7D075842A3A5105AD410BD38A;
+			remoteInfo = BigInt;
+		};
+		F2AC30946938A7A86A145FC4ECBAF7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 442790FC561CF8FC8C555000A45C6C97;
+			remoteInfo = Blake2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B3A05B7EFBCDB74B1907BF97D3A73C /* Pods-TTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTests.debug.xcconfig"; sourceTree = "<group>"; };
+		011AEEA088F3A8007658226B9C69EFE0 /* Bip39.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bip39.swift-prefix.pch"; sourceTree = "<group>"; };
+		04A1D4175107F7819C6498B213532A93 /* sr25519-hash-custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sr25519-hash-custom.h"; path = "Sources/CSr25519/src/sr25519-hash-custom.h"; sourceTree = "<group>"; };
+		05056E57A6CBB2D165331A39597CEDD2 /* Blake2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blake2-umbrella.h"; sourceTree = "<group>"; };
+		053987A33C960AF53AD0BC004A752232 /* Base58.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base58.swift; path = Base58Swift/Base58.swift; sourceTree = "<group>"; };
+		05F8370DCFAA7EC21DF62907888C5636 /* Base58Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Base58Swift; path = Base58Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EBE06D0DDE18A72F9F4F7FFC5B9322 /* Pods-TTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTests.release.xcconfig"; sourceTree = "<group>"; };
+		0737CE0B117F9D5F5CE7522E7FD8DBAC /* Chinese.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chinese.swift; path = Sources/Bip39/Wordlists/Chinese.swift; sourceTree = "<group>"; };
+		0959E9D991DFC1087A22274C026F8CAB /* pbkdf2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pbkdf2.c; path = Sources/CUncommonCrypto/pbkdf2.c; sourceTree = "<group>"; };
+		0989E1831C51757C12BD774F6068A06A /* blake2b-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2b-ref.c"; path = "Sources/CBlake2/blake2b-ref.c"; sourceTree = "<group>"; };
+		09AE4B741E8D2AC953E32D770831A6C1 /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "Sources/String Conversion.swift"; sourceTree = "<group>"; };
+		09F57187D528318FE82DE7CADB3E6685 /* regression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regression.h; path = "Sources/CSr25519/src/ed25519-donna/regression.h"; sourceTree = "<group>"; };
+		0CCBC403198D19A3AA80B8A879999B7B /* curve25519-donna-sse2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "curve25519-donna-sse2.h"; path = "Sources/CSr25519/src/ed25519-donna/curve25519-donna-sse2.h"; sourceTree = "<group>"; };
+		0D16B187746153695AF61FB8B455E265 /* Pods-TTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTests-Info.plist"; sourceTree = "<group>"; };
+		0DE2E4932CABA9F35412089F4F90CA15 /* sha3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha3.c; path = Sources/CUncommonCrypto/sha3.c; sourceTree = "<group>"; };
+		0E234FE6D7BB6D95790A1319BB046868 /* sr25519-randombytes-default.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sr25519-randombytes-default.h"; path = "Sources/CSr25519/src/sr25519-randombytes-default.h"; sourceTree = "<group>"; };
+		0E9E4D4D04D1662BD66BE00C30C728B0 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/UncommonCrypto/SHA2.swift; sourceTree = "<group>"; };
+		0EEF6026BD1F25B6BC5418A1981F541E /* randombytes_sysrandom.c */ = {isa = PBXFileReference; includeInIndex = 1; name = randombytes_sysrandom.c; path = Sources/CSr25519/src/randombytes_sysrandom.c; sourceTree = "<group>"; };
+		0F360886F1030BAD22871C09DFB14236 /* memzero.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memzero.h; path = Sources/CSr25519/src/memzero.h; sourceTree = "<group>"; };
+		11348EF454256C2724C640D8746E01FB /* Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multiplication.swift; path = Sources/Multiplication.swift; sourceTree = "<group>"; };
+		1505E994966E59603BFD7BC8085EC0E6 /* sr25519-randombytes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sr25519-randombytes.h"; path = "Sources/CSr25519/src/sr25519-randombytes.h"; sourceTree = "<group>"; };
+		1693AFDC9A82F860CFAC4F7160C201D3 /* Blake2xs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blake2xs.swift; path = Sources/Blake2/Blake2xs.swift; sourceTree = "<group>"; };
+		171D7F07AFD00BECCFFCAF1CB6E1AA4B /* sha2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha2.h; path = Sources/CUncommonCrypto/include/sha2.h; sourceTree = "<group>"; };
+		18FFDE9C00EDA654D4F3B66AD03063A1 /* Pods-T-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T-acknowledgements.plist"; sourceTree = "<group>"; };
+		194744A68EB72852E1F8BBE197D6E925 /* UncommonCrypto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UncommonCrypto-prefix.pch"; sourceTree = "<group>"; };
+		1FC4033C35D8EBEEE025D9C5F2240B9E /* UncommonCrypto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UncommonCrypto-Info.plist"; sourceTree = "<group>"; };
+		21A167CB953425B901C6B18D5ECC1D60 /* Pods-TTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TTests"; path = Pods_TTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D88FD4C87C2FDD0A0113770E933DEB /* Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codable.swift; path = Sources/Codable.swift; sourceTree = "<group>"; };
+		26B5E761E37832435DDD83D85220237F /* Blake2bp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blake2bp.swift; path = Sources/Blake2/Blake2bp.swift; sourceTree = "<group>"; };
+		279EFA97C0381C0D2C22061F03E3425F /* blake2-impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "blake2-impl.h"; path = "Sources/CBlake2/blake2-impl.h"; sourceTree = "<group>"; };
+		2AA3EED3624C97B8C4E53901E0A872E6 /* BigInt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.debug.xcconfig; sourceTree = "<group>"; };
+		2B8CD233CE5206C8847922C543CECCFD /* memzero.c */ = {isa = PBXFileReference; includeInIndex = 1; name = memzero.c; path = Sources/CSr25519/src/memzero.c; sourceTree = "<group>"; };
+		2CAF9A4DDA4BE1F0C16DA4D387844B0B /* ed25519-donna-32bit-tables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-32bit-tables.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-32bit-tables.h"; sourceTree = "<group>"; };
+		2E597C2BF63A500C05ACC14A736C4581 /* SHA3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA3.swift; path = Sources/UncommonCrypto/SHA3.swift; sourceTree = "<group>"; };
+		30DAA73FEDB8F7DBBA87EF506D774F27 /* Bip39.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bip39.swift.debug.xcconfig; sourceTree = "<group>"; };
+		313E6491B0759E5FE771902BF7D433DD /* core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = core.h; path = Sources/CSr25519/src/core.h; sourceTree = "<group>"; };
+		34178BB03FBBC0C7613BD3E99FC9FFA0 /* Bip39.swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bip39.swift; path = Bip39.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C5AE8AAD5BF525AB0CEA36F21CF104 /* UncommonCrypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UncommonCrypto.release.xcconfig; sourceTree = "<group>"; };
+		34FE0ACEC9E4999B9D75EA9F6AF866A5 /* Blake2sp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blake2sp.swift; path = Sources/Blake2/Blake2sp.swift; sourceTree = "<group>"; };
+		35EE894546314A14DBF9AA77488534AE /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = Sources/CUncommonCrypto/hmac.c; sourceTree = "<group>"; };
+		3639F55A659F2EBEB5671D4E35CAAD0E /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/UncommonCrypto/HMAC.swift; sourceTree = "<group>"; };
+		36465B540C6508DE2D546314794A0A45 /* BigInt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-prefix.pch"; sourceTree = "<group>"; };
+		36E971254D9E4237068A79639F986C88 /* SecureRandom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureRandom.swift; path = Sources/UncommonCrypto/SecureRandom.swift; sourceTree = "<group>"; };
+		38C56EC924F3EC8076530A0BEE30065D /* sr25519-randombytes-custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sr25519-randombytes-custom.h"; path = "Sources/CSr25519/src/sr25519-randombytes-custom.h"; sourceTree = "<group>"; };
+		3AA54506833FE3CE4017C638ABC079CD /* ed25519-randombytes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-randombytes.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-randombytes.h"; sourceTree = "<group>"; };
+		4179BCF856183DAB9479050AE540C6FC /* Pods-T-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-T-umbrella.h"; sourceTree = "<group>"; };
+		464F9F9C79C46FCC4F8CC65097D1356E /* Bip39.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bip39.swift.release.xcconfig; sourceTree = "<group>"; };
+		49B13170F4480A8B038B5F4F3AA86C57 /* memzero.c */ = {isa = PBXFileReference; includeInIndex = 1; name = memzero.c; path = Sources/CUncommonCrypto/memzero.c; sourceTree = "<group>"; };
+		4BFBFAA125478953E57F428170DF2DE3 /* Pods-T-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-T-frameworks.sh"; sourceTree = "<group>"; };
+		53DDAFFE87059E5E2EAF28CE10690CAC /* sr25519-randombytes-default.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "sr25519-randombytes-default.c"; path = "Sources/CSr25519/src/sr25519-randombytes-default.c"; sourceTree = "<group>"; };
+		5639AE304020E565A9C093E6406D7657 /* TCArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCArray.swift; path = Sources/Sr25519Helpers/TCArray.swift; sourceTree = "<group>"; };
+		56D08F73584E1E8CB6EFD3202E814BAE /* ed25519-donna-impl-base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-impl-base.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-impl-base.h"; sourceTree = "<group>"; };
+		57AFB4C72BC7B88E696ABB2A92E16C44 /* blake2xs-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2xs-ref.c"; path = "Sources/CBlake2/blake2xs-ref.c"; sourceTree = "<group>"; };
+		584E51E57210627BBAAF967F648C9B6D /* Sr25519-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Sr25519-Info.plist"; sourceTree = "<group>"; };
+		590B7AEB89C5033A6CEF86C70AED3F7D /* ed25519-donna-64bit-sse2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-64bit-sse2.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-64bit-sse2.h"; sourceTree = "<group>"; };
+		5A30655D8C6CE39097DD5420462291B0 /* ristretto255.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ristretto255.h; path = Sources/CSr25519/src/ristretto255.h; sourceTree = "<group>"; };
+		5D0CD0EAFB812A5AEE695BCB9E02B1EE /* English.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = English.swift; path = Sources/Bip39/Wordlists/English.swift; sourceTree = "<group>"; };
+		5DE5B8BF6326935C46DBC8A701B73B64 /* Base58Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Base58Swift-Info.plist"; sourceTree = "<group>"; };
+		5FA59B0778E10D8BA3420B2E2EEFE678 /* ed25519.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ed25519.h; path = "Sources/CSr25519/src/ed25519-donna/ed25519.h"; sourceTree = "<group>"; };
+		6012004DE72D51DEE6932E342D3E9299 /* Sr25519Vrf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sr25519Vrf.swift; path = Sources/Sr25519/Sr25519Vrf.swift; sourceTree = "<group>"; };
+		6118C7AC72EAB6B375ECDD2034B4A3B8 /* UncommonCrypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UncommonCrypto-dummy.m"; sourceTree = "<group>"; };
+		62E178B5F14D9B48418A4B7BD5317501 /* ed25519-donna-64bit-x86.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-64bit-x86.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-64bit-x86.h"; sourceTree = "<group>"; };
+		63AE9DC6B36EB06CDDD38FBDA9E9A8F8 /* Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shifts.swift; path = Sources/Shifts.swift; sourceTree = "<group>"; };
+		67C93ECC530B2D8F5F253FB9B92C4F3D /* Sr25519.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sr25519.release.xcconfig; sourceTree = "<group>"; };
+		6B6F0230A79FB386447959B46C59B38F /* UncommonCrypto */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UncommonCrypto; path = UncommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8ED52E89B1AE3820160C92146F36A8 /* UncommonCrypto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UncommonCrypto-umbrella.h"; sourceTree = "<group>"; };
+		6C28962F7C300872E9515ADD1B6FFDD9 /* vrf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vrf.c; path = Sources/CSr25519/src/vrf.c; sourceTree = "<group>"; };
+		6D37450DB520111E00C8ACEA86B75726 /* Pods-T.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T.release.xcconfig"; sourceTree = "<group>"; };
+		70CB103D9038B7724BDF30611CD6FD20 /* Pods-TTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTests-dummy.m"; sourceTree = "<group>"; };
+		722013EED3607F2FF8FA83F8C3CC527F /* Data Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data Conversion.swift"; path = "Sources/Data Conversion.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		761D31E3D88BB80CF6A196D28F966970 /* merlin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = merlin.h; path = Sources/CSr25519/src/merlin.h; sourceTree = "<group>"; };
+		767291258B451E05385C7DA12D283178 /* Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subtraction.swift; path = Sources/Subtraction.swift; sourceTree = "<group>"; };
+		79127494255C5F5DB3BFD12E9A09A2A1 /* Strideable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strideable.swift; path = Sources/Strideable.swift; sourceTree = "<group>"; };
+		7ABD5234400C7C5EB834D901FDE1B8B7 /* curve25519-donna-32bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "curve25519-donna-32bit.h"; path = "Sources/CSr25519/src/ed25519-donna/curve25519-donna-32bit.h"; sourceTree = "<group>"; };
+		7D3235CC3DB9A25AD235EB12C0E101BB /* ed25519-donna-32bit-sse2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-32bit-sse2.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-32bit-sse2.h"; sourceTree = "<group>"; };
+		7D9D457ED27EFCF4514CA93A037051B6 /* Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bitwise Ops.swift"; path = "Sources/Bitwise Ops.swift"; sourceTree = "<group>"; };
+		7E4515946850E9CC4DCBEECF09171A2A /* Base58Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Base58Swift-prefix.pch"; sourceTree = "<group>"; };
+		7E77DC94FC0F1A4AD5D1394FD2D32045 /* memzero.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memzero.h; path = Sources/CUncommonCrypto/memzero.h; sourceTree = "<group>"; };
+		825DF06CB777BDB22887B0B50D139607 /* Blake2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Blake2.modulemap; sourceTree = "<group>"; };
+		829BF30C46FD8FE35371DCA95930FC32 /* blake2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blake2.h; path = Sources/CBlake2/include/blake2.h; sourceTree = "<group>"; };
+		8395CA45A0888FF4B72D091626C0D5EC /* Bip39.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bip39.swift-umbrella.h"; sourceTree = "<group>"; };
+		855A670983DC3412D5E0B0EA9B282EC5 /* sha2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha2.c; path = Sources/CUncommonCrypto/sha2.c; sourceTree = "<group>"; };
+		85D36F63F47F2511BE6514BD121D1B6A /* Pods-T.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-T.modulemap"; sourceTree = "<group>"; };
+		864F3F8C7481E9755AAC71A63B3B396C /* sr25519-donna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sr25519-donna.h"; path = "Sources/CSr25519/src/sr25519-donna.h"; sourceTree = "<group>"; };
+		87648F03433FF7C47CEECC8ED5457648 /* ed25519-donna-impl-sse2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-impl-sse2.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-impl-sse2.h"; sourceTree = "<group>"; };
+		894DBDB07E9AA7A084E16D4D8447A970 /* ed25519-donna-basepoint-table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-basepoint-table.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-basepoint-table.h"; sourceTree = "<group>"; };
+		89F9097F70574579E25CF5D134127A1E /* ed25519-donna-batchverify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-batchverify.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-batchverify.h"; sourceTree = "<group>"; };
+		8B4B380FBEA44F90D2E69935B992A373 /* Sr25519.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sr25519.debug.xcconfig; sourceTree = "<group>"; };
+		8C263A3FF83DDBDF40585F5EE8727E2A /* ed25519-donna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna.h"; sourceTree = "<group>"; };
+		8C89FD881063D25E970908390D530E4A /* Sr25519Signature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sr25519Signature.swift; path = Sources/Sr25519/Sr25519Signature.swift; sourceTree = "<group>"; };
+		8E22B9AE4C1CDF4DF1486EBEA8712338 /* Pods-TTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTests.modulemap"; sourceTree = "<group>"; };
+		9175F86E21791548C10EE71C74ED1C3C /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-umbrella.h"; sourceTree = "<group>"; };
+		919A28D23D3070E19F4BCB928CA864A6 /* Blake2b.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blake2b.swift; path = Sources/Blake2/Blake2b.swift; sourceTree = "<group>"; };
+		91BB24BA472AF523E913108C9AA301F2 /* BigInt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BigInt; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9325CB138C998F54FD850A409A4F00DA /* Wordlist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wordlist.swift; path = Sources/Bip39/Wordlist.swift; sourceTree = "<group>"; };
+		943CF2AA82807C772BDC1C26BD089278 /* Sr25519-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sr25519-dummy.m"; sourceTree = "<group>"; };
+		9482683769A6869B1DB6A77A104BED8D /* Base58Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Base58Swift-dummy.m"; sourceTree = "<group>"; };
+		9608AC5727F0A356F50863A16D557287 /* modm-donna-64bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "modm-donna-64bit.h"; path = "Sources/CSr25519/src/ed25519-donna/modm-donna-64bit.h"; sourceTree = "<group>"; };
+		9653CE1BE16285ECA18DE5A28A186E70 /* vrf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vrf.h; path = Sources/CSr25519/src/vrf.h; sourceTree = "<group>"; };
+		9A2E8A3F1F919BDA8072A69D3A4ADC5A /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = Sources/Exponentiation.swift; sourceTree = "<group>"; };
+		9B2C2DB52A99B10181704E3FA02FE836 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Sources/Sr25519Helpers/Random.swift; sourceTree = "<group>"; };
+		9B36CC7AC4EF886308DB19F2AFFDB12D /* merlin.c */ = {isa = PBXFileReference; includeInIndex = 1; name = merlin.c; path = Sources/CSr25519/src/merlin.c; sourceTree = "<group>"; };
+		9C420DE529D2CD829634B77AC53BEB20 /* blake2xb-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2xb-ref.c"; path = "Sources/CBlake2/blake2xb-ref.c"; sourceTree = "<group>"; };
+		9D5C4D07C7148B2BEA45F1EF25306285 /* BigInt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E30456653AE51757593A6B9A549EE9F /* Pods-TTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E4542AFE5640FB57AA9AD06E6420A6C /* ed25519-donna-64bit-tables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-64bit-tables.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-64bit-tables.h"; sourceTree = "<group>"; };
+		9EA24510BBDB84DE955630E5D2EABB61 /* Sr25519PublicKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sr25519PublicKey.swift; path = Sources/Sr25519/Sr25519PublicKey.swift; sourceTree = "<group>"; };
+		9F3F98F88BC4E19D0068C69B098A2A9E /* curve25519-donna-64bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "curve25519-donna-64bit.h"; path = "Sources/CSr25519/src/ed25519-donna/curve25519-donna-64bit.h"; sourceTree = "<group>"; };
+		9FB98AF2B9CC1A623BA8FC9A1D7F8566 /* Comparable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comparable.swift; path = Sources/Comparable.swift; sourceTree = "<group>"; };
+		A061A1B03ABB73DB3C7C16778CF1F8A3 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = Sources/CUncommonCrypto/include/hmac.h; sourceTree = "<group>"; };
+		A0E96838CAD670AEB023D087B14E1108 /* pbkdf2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pbkdf2.h; path = Sources/CUncommonCrypto/include/pbkdf2.h; sourceTree = "<group>"; };
+		A29CF0EC75A29E46A9260D79F3AD6F6D /* Blake2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Blake2.release.xcconfig; sourceTree = "<group>"; };
+		A82327A487D885EA67451C20DAA24C0D /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = Sources/BigInt.swift; sourceTree = "<group>"; };
+		AB8365401EC20107854C31BA101A4CA4 /* Sr25519KeyPair.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sr25519KeyPair.swift; path = Sources/Sr25519/Sr25519KeyPair.swift; sourceTree = "<group>"; };
+		ABD535D27E4FD14563E634CB3DF52442 /* ed25519-randombytes-custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-randombytes-custom.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-randombytes-custom.h"; sourceTree = "<group>"; };
+		ACE2EDEE823688DAB00E5BE0B0E73647 /* Base58Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Base58Swift.modulemap; sourceTree = "<group>"; };
+		AE3CBD722F6E15215DC5F098B4ABFFA3 /* Pods-T-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T-Info.plist"; sourceTree = "<group>"; };
+		AEB0FD8443B944F77CAA0ABFBA3864B6 /* GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = Sources/GCD.swift; sourceTree = "<group>"; };
+		B1E11EF0BFA739B8B03BC3B4CD265FEF /* Blake2s.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blake2s.swift; path = Sources/Blake2/Blake2s.swift; sourceTree = "<group>"; };
+		B40562F9035432B1B0FD68170D9980CE /* Sr25519-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sr25519-umbrella.h"; sourceTree = "<group>"; };
+		B41BAFD237CAC13563B749115B867450 /* Blake2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blake2.swift; path = Sources/Blake2/Blake2.swift; sourceTree = "<group>"; };
+		B4A96B242695DCBC25B383CB149B3BA8 /* Base58Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Base58Swift-umbrella.h"; sourceTree = "<group>"; };
+		B4D53770F007CEB1D0B6962A9F529706 /* Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Prime Test.swift"; path = "Sources/Prime Test.swift"; sourceTree = "<group>"; };
+		B4EA42AB6E451CB74D8875ED2F946A5B /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Sources/Random.swift; sourceTree = "<group>"; };
+		B50F971DBAC7D54B81AC7F3CA5567427 /* Blake2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Blake2; path = Blake2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AEC82B33E7EE94B2124C9921C38183 /* ed25519-hash-custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-hash-custom.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-hash-custom.h"; sourceTree = "<group>"; };
+		BB4C98F3236EC21D6A4D745A4F16D0DE /* options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = options.h; path = Sources/CUncommonCrypto/include/options.h; sourceTree = "<group>"; };
+		BBFA3F107B615E02CAD44AE153FF224B /* Pods-T.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T.debug.xcconfig"; sourceTree = "<group>"; };
+		BC831061C2C077795BB6AFA927707529 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Floating Point Conversion.swift"; path = "Sources/Floating Point Conversion.swift"; sourceTree = "<group>"; };
+		BD246F30A4F76E47FC9966BECF897129 /* sha3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha3.h; path = Sources/CUncommonCrypto/include/sha3.h; sourceTree = "<group>"; };
+		BDADF3CA9FBB9EDCC589201E187FE59B /* TCArrayPointer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCArrayPointer.swift; path = Sources/Sr25519Helpers/TCArrayPointer.swift; sourceTree = "<group>"; };
+		BE00D89BC3B33666BD849597783A8470 /* Integer Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer Conversion.swift"; path = "Sources/Integer Conversion.swift"; sourceTree = "<group>"; };
+		BE0FDC6B4B24793409A289CB0BA7BAF7 /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
+		BE7D25474F1EFC4DC498FB9D9BC1E2C7 /* Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Division.swift; path = Sources/Division.swift; sourceTree = "<group>"; };
+		C056839B33A9855E21C722B789666111 /* randombytes_sysrandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randombytes_sysrandom.h; path = Sources/CSr25519/src/randombytes_sysrandom.h; sourceTree = "<group>"; };
+		C12B234D20207B8D70CD2B4E8E2924FC /* Pods-T-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-T-dummy.m"; sourceTree = "<group>"; };
+		C14B4102E7E903FD5DF3F74734601984 /* Bip39.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bip39.swift-dummy.m"; sourceTree = "<group>"; };
+		C791315AE182332FF48DC5140CB3F2CE /* UncommonCrypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UncommonCrypto.modulemap; sourceTree = "<group>"; };
+		C825595117828D95D0659A4EF1BCB51E /* Pods-T-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-T-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9E2CEA3C3DFE2F2176F853DCBE7E1C3 /* UncommonCrypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UncommonCrypto.debug.xcconfig; sourceTree = "<group>"; };
+		CA30737E0A579865D52DFA46FD1BD383 /* Sr25519ChainCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sr25519ChainCode.swift; path = Sources/Sr25519/Sr25519ChainCode.swift; sourceTree = "<group>"; };
+		CAE0F3793AB3C5C9C6FB69CFC4779544 /* sr25519-hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sr25519-hash.h"; path = "Sources/CSr25519/src/sr25519-hash.h"; sourceTree = "<group>"; };
+		CB0A28A7F35A186DB8A7AE9ED611EA34 /* Base58Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Base58Swift.release.xcconfig; sourceTree = "<group>"; };
+		CB96FAA486A327F1B6F8EBACBA638A2E /* Pods-T */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-T"; path = Pods_T.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAB57E9BE999E419930045771647824 /* Sr25519.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sr25519.modulemap; sourceTree = "<group>"; };
+		CFCEE7738FB14974F9F66FAAED04E455 /* core.c */ = {isa = PBXFileReference; includeInIndex = 1; name = core.c; path = Sources/CSr25519/src/core.c; sourceTree = "<group>"; };
+		D19BC2FA3B9293628CB2F25E39731DB4 /* sr25519.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sr25519.h; path = Sources/CSr25519/src/sr25519.h; sourceTree = "<group>"; };
+		D218567755467BB20E53F817B5107E21 /* sr25519.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sr25519.c; path = Sources/CSr25519/src/sr25519.c; sourceTree = "<group>"; };
+		D256190680CE2885C5196249EB718A21 /* Blake2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Blake2.debug.xcconfig; sourceTree = "<group>"; };
+		D3331FFADC6C72434B1272C95D4D9281 /* Blake2xb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blake2xb.swift; path = Sources/Blake2/Blake2xb.swift; sourceTree = "<group>"; };
+		D62B9FC0BF2B2FE52ADEF7628E2DC0CC /* ed25519-donna-portable-identify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-portable-identify.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-portable-identify.h"; sourceTree = "<group>"; };
+		D689AA148C6AD388D97E2543AFD0837F /* Mnemonic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mnemonic.swift; path = Sources/Bip39/Mnemonic.swift; sourceTree = "<group>"; };
+		D8CDFE0EA6DDA5F27AAA4398B28F5D05 /* Sr25519Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sr25519Error.swift; path = Sources/Sr25519/Sr25519Error.swift; sourceTree = "<group>"; };
+		DADEECAC20E6437D56CC8902D547F7F0 /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = Sources/BigUInt.swift; sourceTree = "<group>"; };
+		DBD5628AA628C790D78B5C2FA4CF5FA7 /* blake2sp-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2sp-ref.c"; path = "Sources/CBlake2/blake2sp-ref.c"; sourceTree = "<group>"; };
+		DC2A9A4870C4E0D7C2764FDC96E4A820 /* Sr25519 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sr25519; path = Sr25519.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF06F669FE82B241ADE38610FB5CC113 /* blake2s-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2s-ref.c"; path = "Sources/CBlake2/blake2s-ref.c"; sourceTree = "<group>"; };
+		E00BB96D95428700687F1B1914EC625F /* ed25519.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ed25519.c; path = "Sources/CSr25519/src/ed25519-donna/ed25519.c"; sourceTree = "<group>"; };
+		E010897BF7E86AE8D2E8C641AA73F08D /* Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Square Root.swift"; path = "Sources/Square Root.swift"; sourceTree = "<group>"; };
+		E035F036253084995BF87B29C1DE28D5 /* Blake2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Blake2-dummy.m"; sourceTree = "<group>"; };
+		E21811976835B1420DDA5F257F7776CC /* ristretto255.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ristretto255.c; path = Sources/CSr25519/src/ristretto255.c; sourceTree = "<group>"; };
+		E446E1E92F5A969BB3ABC1B61C4CE8EA /* ed25519-hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-hash.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-hash.h"; sourceTree = "<group>"; };
+		E7C9D5FA50937A61F0E13D03C5117CB0 /* curve25519-donna-helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "curve25519-donna-helpers.h"; path = "Sources/CSr25519/src/ed25519-donna/curve25519-donna-helpers.h"; sourceTree = "<group>"; };
+		EAC0469F4B1DBEA309B06C3AEB43B520 /* Pods-TTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB02CAB8D58258FF04EB7796F2805E3A /* Hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hashable.swift; path = Sources/Hashable.swift; sourceTree = "<group>"; };
+		EBE0305667E8B92166851546A88C0B71 /* ed25519-donna-64bit-x86-32bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-64bit-x86-32bit.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-64bit-x86-32bit.h"; sourceTree = "<group>"; };
+		ECDEB781472C79A6096A54480644D2E6 /* modm-donna-32bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "modm-donna-32bit.h"; path = "Sources/CSr25519/src/ed25519-donna/modm-donna-32bit.h"; sourceTree = "<group>"; };
+		EDED4F924EBADF6EE1F1DDAAF9DCE838 /* Base58Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Base58Swift.debug.xcconfig; sourceTree = "<group>"; };
+		EE2137FE42856E4BA748C11922173269 /* ed25519-donna-portable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ed25519-donna-portable.h"; path = "Sources/CSr25519/src/ed25519-donna/ed25519-donna-portable.h"; sourceTree = "<group>"; };
+		EF15BB2EDE5944681F0F37EBD744FE3C /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/UncommonCrypto/SHA1.swift; sourceTree = "<group>"; };
+		F0C3EBDFC481A256A9ED879771B2ADBA /* blake2bp-ref.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "blake2bp-ref.c"; path = "Sources/CBlake2/blake2bp-ref.c"; sourceTree = "<group>"; };
+		F0D5B8081CF77529B747DD6E4452468E /* Blake2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blake2-prefix.pch"; sourceTree = "<group>"; };
+		F0EABC6B8ECB232DA292ECAB160A4CA5 /* Pods-TTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTests-umbrella.h"; sourceTree = "<group>"; };
+		F202C9CE08D0A68C0EC3086B3578C363 /* Bip39.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bip39.swift.modulemap; sourceTree = "<group>"; };
+		F4FEB58A2218A9C186F8F1A23622B34C /* Words and Bits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Words and Bits.swift"; path = "Sources/Words and Bits.swift"; sourceTree = "<group>"; };
+		F552B60C6B5112150238CDD1AB8C15DC /* Blake2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Blake2-Info.plist"; sourceTree = "<group>"; };
+		F5D5B93D0BACACD8F7EAA9B0FD7C2B6B /* Sr25519Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sr25519Ext.swift; path = Sources/Sr25519/Sr25519Ext.swift; sourceTree = "<group>"; };
+		F733675B87D66D1154C50D228E02AF5C /* Sr25519Seed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sr25519Seed.swift; path = Sources/Sr25519/Sr25519Seed.swift; sourceTree = "<group>"; };
+		F9E17D362977F9B9E377408026BCB151 /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = Sources/Addition.swift; sourceTree = "<group>"; };
+		FAF6FD9C3D8C5608E732C2A89FA0A0E3 /* BigInt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BigInt-Info.plist"; sourceTree = "<group>"; };
+		FCEB97B72C56043A8B0F79FD611DF42E /* Sr25519-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sr25519-prefix.pch"; sourceTree = "<group>"; };
+		FF46204B1F563C9EBD65D79E5B5BF3BF /* Bip39.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bip39.swift-Info.plist"; sourceTree = "<group>"; };
+		FF9412E7BA811D7668B94212D19E5F6D /* PBKDF2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBKDF2.swift; path = Sources/UncommonCrypto/PBKDF2.swift; sourceTree = "<group>"; };
+		FFCC520533DBB38C425B677E25852B35 /* BigInt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BigInt.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215A2C3D3EF256DBDB34C86C9001D504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1476FA1E31F2DB79274914ADAD76F032 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0356E3941D3ED8B2BA04CD56A78635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B21C9F11506D25DC65813648F1F3678 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA2823C4F4278E4C3AFB7C38F51639E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFD22BD84D374F36F5078D74E2D37F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3574A2F63D892A45ACC16293BE6CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FEBEEE41FBB6B335B7FA50353EC87E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F20F58DCDFA7CAB1AC3E72C27D40C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3F06354A550BAC7C29936FA5041B1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EEBC3E77EBC759AEDA40B358C8BF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67287C762EB8F9D3DA29857707109CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6801BC13E245C7D85935BBEED8F2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D18C8782C60EEDF0179A36974BA1D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E313D08E75EE68324A70B406C01C797C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53E077CD339774EB132C51E30917CC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0218E62ACC4041E70ABD208B2973B105 /* CSr25519 */ = {
+			isa = PBXGroup;
+			children = (
+				CFCEE7738FB14974F9F66FAAED04E455 /* core.c */,
+				313E6491B0759E5FE771902BF7D433DD /* core.h */,
+				7ABD5234400C7C5EB834D901FDE1B8B7 /* curve25519-donna-32bit.h */,
+				9F3F98F88BC4E19D0068C69B098A2A9E /* curve25519-donna-64bit.h */,
+				E7C9D5FA50937A61F0E13D03C5117CB0 /* curve25519-donna-helpers.h */,
+				0CCBC403198D19A3AA80B8A879999B7B /* curve25519-donna-sse2.h */,
+				E00BB96D95428700687F1B1914EC625F /* ed25519.c */,
+				5FA59B0778E10D8BA3420B2E2EEFE678 /* ed25519.h */,
+				8C263A3FF83DDBDF40585F5EE8727E2A /* ed25519-donna.h */,
+				7D3235CC3DB9A25AD235EB12C0E101BB /* ed25519-donna-32bit-sse2.h */,
+				2CAF9A4DDA4BE1F0C16DA4D387844B0B /* ed25519-donna-32bit-tables.h */,
+				590B7AEB89C5033A6CEF86C70AED3F7D /* ed25519-donna-64bit-sse2.h */,
+				9E4542AFE5640FB57AA9AD06E6420A6C /* ed25519-donna-64bit-tables.h */,
+				62E178B5F14D9B48418A4B7BD5317501 /* ed25519-donna-64bit-x86.h */,
+				EBE0305667E8B92166851546A88C0B71 /* ed25519-donna-64bit-x86-32bit.h */,
+				894DBDB07E9AA7A084E16D4D8447A970 /* ed25519-donna-basepoint-table.h */,
+				89F9097F70574579E25CF5D134127A1E /* ed25519-donna-batchverify.h */,
+				56D08F73584E1E8CB6EFD3202E814BAE /* ed25519-donna-impl-base.h */,
+				87648F03433FF7C47CEECC8ED5457648 /* ed25519-donna-impl-sse2.h */,
+				EE2137FE42856E4BA748C11922173269 /* ed25519-donna-portable.h */,
+				D62B9FC0BF2B2FE52ADEF7628E2DC0CC /* ed25519-donna-portable-identify.h */,
+				E446E1E92F5A969BB3ABC1B61C4CE8EA /* ed25519-hash.h */,
+				B7AEC82B33E7EE94B2124C9921C38183 /* ed25519-hash-custom.h */,
+				3AA54506833FE3CE4017C638ABC079CD /* ed25519-randombytes.h */,
+				ABD535D27E4FD14563E634CB3DF52442 /* ed25519-randombytes-custom.h */,
+				2B8CD233CE5206C8847922C543CECCFD /* memzero.c */,
+				0F360886F1030BAD22871C09DFB14236 /* memzero.h */,
+				9B36CC7AC4EF886308DB19F2AFFDB12D /* merlin.c */,
+				761D31E3D88BB80CF6A196D28F966970 /* merlin.h */,
+				ECDEB781472C79A6096A54480644D2E6 /* modm-donna-32bit.h */,
+				9608AC5727F0A356F50863A16D557287 /* modm-donna-64bit.h */,
+				0EEF6026BD1F25B6BC5418A1981F541E /* randombytes_sysrandom.c */,
+				C056839B33A9855E21C722B789666111 /* randombytes_sysrandom.h */,
+				09F57187D528318FE82DE7CADB3E6685 /* regression.h */,
+				E21811976835B1420DDA5F257F7776CC /* ristretto255.c */,
+				5A30655D8C6CE39097DD5420462291B0 /* ristretto255.h */,
+				D218567755467BB20E53F817B5107E21 /* sr25519.c */,
+				D19BC2FA3B9293628CB2F25E39731DB4 /* sr25519.h */,
+				864F3F8C7481E9755AAC71A63B3B396C /* sr25519-donna.h */,
+				CAE0F3793AB3C5C9C6FB69CFC4779544 /* sr25519-hash.h */,
+				04A1D4175107F7819C6498B213532A93 /* sr25519-hash-custom.h */,
+				1505E994966E59603BFD7BC8085EC0E6 /* sr25519-randombytes.h */,
+				38C56EC924F3EC8076530A0BEE30065D /* sr25519-randombytes-custom.h */,
+				53DDAFFE87059E5E2EAF28CE10690CAC /* sr25519-randombytes-default.c */,
+				0E234FE6D7BB6D95790A1319BB046868 /* sr25519-randombytes-default.h */,
+				6C28962F7C300872E9515ADD1B6FFDD9 /* vrf.c */,
+				9653CE1BE16285ECA18DE5A28A186E70 /* vrf.h */,
+			);
+			name = CSr25519;
+			sourceTree = "<group>";
+		};
+		02D47373F7B41AE91954B3215DAF84CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F202C9CE08D0A68C0EC3086B3578C363 /* Bip39.swift.modulemap */,
+				C14B4102E7E903FD5DF3F74734601984 /* Bip39.swift-dummy.m */,
+				FF46204B1F563C9EBD65D79E5B5BF3BF /* Bip39.swift-Info.plist */,
+				011AEEA088F3A8007658226B9C69EFE0 /* Bip39.swift-prefix.pch */,
+				8395CA45A0888FF4B72D091626C0D5EC /* Bip39.swift-umbrella.h */,
+				30DAA73FEDB8F7DBBA87EF506D774F27 /* Bip39.swift.debug.xcconfig */,
+				464F9F9C79C46FCC4F8CC65097D1356E /* Bip39.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bip39.swift";
+			sourceTree = "<group>";
+		};
+		2A455C04AFF4C279622406A2100D3860 /* Pods-T */ = {
+			isa = PBXGroup;
+			children = (
+				85D36F63F47F2511BE6514BD121D1B6A /* Pods-T.modulemap */,
+				C825595117828D95D0659A4EF1BCB51E /* Pods-T-acknowledgements.markdown */,
+				18FFDE9C00EDA654D4F3B66AD03063A1 /* Pods-T-acknowledgements.plist */,
+				C12B234D20207B8D70CD2B4E8E2924FC /* Pods-T-dummy.m */,
+				4BFBFAA125478953E57F428170DF2DE3 /* Pods-T-frameworks.sh */,
+				AE3CBD722F6E15215DC5F098B4ABFFA3 /* Pods-T-Info.plist */,
+				4179BCF856183DAB9479050AE540C6FC /* Pods-T-umbrella.h */,
+				BBFA3F107B615E02CAD44AE153FF224B /* Pods-T.debug.xcconfig */,
+				6D37450DB520111E00C8ACEA86B75726 /* Pods-T.release.xcconfig */,
+			);
+			name = "Pods-T";
+			path = "Target Support Files/Pods-T";
+			sourceTree = "<group>";
+		};
+		3A0767616B7FB76260942388D48D6576 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				825DF06CB777BDB22887B0B50D139607 /* Blake2.modulemap */,
+				E035F036253084995BF87B29C1DE28D5 /* Blake2-dummy.m */,
+				F552B60C6B5112150238CDD1AB8C15DC /* Blake2-Info.plist */,
+				F0D5B8081CF77529B747DD6E4452468E /* Blake2-prefix.pch */,
+				05056E57A6CBB2D165331A39597CEDD2 /* Blake2-umbrella.h */,
+				D256190680CE2885C5196249EB718A21 /* Blake2.debug.xcconfig */,
+				A29CF0EC75A29E46A9260D79F3AD6F6D /* Blake2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Blake2";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FE9C712639B41AE3B62CC3BE933936D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB57E9BE999E419930045771647824 /* Sr25519.modulemap */,
+				943CF2AA82807C772BDC1C26BD089278 /* Sr25519-dummy.m */,
+				584E51E57210627BBAAF967F648C9B6D /* Sr25519-Info.plist */,
+				FCEB97B72C56043A8B0F79FD611DF42E /* Sr25519-prefix.pch */,
+				B40562F9035432B1B0FD68170D9980CE /* Sr25519-umbrella.h */,
+				8B4B380FBEA44F90D2E69935B992A373 /* Sr25519.debug.xcconfig */,
+				67C93ECC530B2D8F5F253FB9B92C4F3D /* Sr25519.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sr25519";
+			sourceTree = "<group>";
+		};
+		75DDB84D6797DC7C1A8437E699416BB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C791315AE182332FF48DC5140CB3F2CE /* UncommonCrypto.modulemap */,
+				6118C7AC72EAB6B375ECDD2034B4A3B8 /* UncommonCrypto-dummy.m */,
+				1FC4033C35D8EBEEE025D9C5F2240B9E /* UncommonCrypto-Info.plist */,
+				194744A68EB72852E1F8BBE197D6E925 /* UncommonCrypto-prefix.pch */,
+				6B8ED52E89B1AE3820160C92146F36A8 /* UncommonCrypto-umbrella.h */,
+				C9E2CEA3C3DFE2F2176F853DCBE7E1C3 /* UncommonCrypto.debug.xcconfig */,
+				34C5AE8AAD5BF525AB0CEA36F21CF104 /* UncommonCrypto.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UncommonCrypto";
+			sourceTree = "<group>";
+		};
+		765CF0E17E88B57CC0C2FF78014C5812 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2EDEE823688DAB00E5BE0B0E73647 /* Base58Swift.modulemap */,
+				9482683769A6869B1DB6A77A104BED8D /* Base58Swift-dummy.m */,
+				5DE5B8BF6326935C46DBC8A701B73B64 /* Base58Swift-Info.plist */,
+				7E4515946850E9CC4DCBEECF09171A2A /* Base58Swift-prefix.pch */,
+				B4A96B242695DCBC25B383CB149B3BA8 /* Base58Swift-umbrella.h */,
+				EDED4F924EBADF6EE1F1DDAAF9DCE838 /* Base58Swift.debug.xcconfig */,
+				CB0A28A7F35A186DB8A7AE9ED611EA34 /* Base58Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Base58Swift";
+			sourceTree = "<group>";
+		};
+		789CF861E4F988B520FB9729ECA03A7A /* UncommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				35EE894546314A14DBF9AA77488534AE /* hmac.c */,
+				A061A1B03ABB73DB3C7C16778CF1F8A3 /* hmac.h */,
+				3639F55A659F2EBEB5671D4E35CAAD0E /* HMAC.swift */,
+				49B13170F4480A8B038B5F4F3AA86C57 /* memzero.c */,
+				7E77DC94FC0F1A4AD5D1394FD2D32045 /* memzero.h */,
+				BB4C98F3236EC21D6A4D745A4F16D0DE /* options.h */,
+				0959E9D991DFC1087A22274C026F8CAB /* pbkdf2.c */,
+				A0E96838CAD670AEB023D087B14E1108 /* pbkdf2.h */,
+				FF9412E7BA811D7668B94212D19E5F6D /* PBKDF2.swift */,
+				36E971254D9E4237068A79639F986C88 /* SecureRandom.swift */,
+				EF15BB2EDE5944681F0F37EBD744FE3C /* SHA1.swift */,
+				855A670983DC3412D5E0B0EA9B282EC5 /* sha2.c */,
+				171D7F07AFD00BECCFFCAF1CB6E1AA4B /* sha2.h */,
+				0E9E4D4D04D1662BD66BE00C30C728B0 /* SHA2.swift */,
+				0DE2E4932CABA9F35412089F4F90CA15 /* sha3.c */,
+				BD246F30A4F76E47FC9966BECF897129 /* sha3.h */,
+				2E597C2BF63A500C05ACC14A736C4581 /* SHA3.swift */,
+				75DDB84D6797DC7C1A8437E699416BB1 /* Support Files */,
+			);
+			name = UncommonCrypto;
+			path = UncommonCrypto;
+			sourceTree = "<group>";
+		};
+		96FA57840A8344B60C763572B547FF31 /* Blake2 */ = {
+			isa = PBXGroup;
+			children = (
+				829BF30C46FD8FE35371DCA95930FC32 /* blake2.h */,
+				B41BAFD237CAC13563B749115B867450 /* Blake2.swift */,
+				279EFA97C0381C0D2C22061F03E3425F /* blake2-impl.h */,
+				919A28D23D3070E19F4BCB928CA864A6 /* Blake2b.swift */,
+				0989E1831C51757C12BD774F6068A06A /* blake2b-ref.c */,
+				26B5E761E37832435DDD83D85220237F /* Blake2bp.swift */,
+				F0C3EBDFC481A256A9ED879771B2ADBA /* blake2bp-ref.c */,
+				B1E11EF0BFA739B8B03BC3B4CD265FEF /* Blake2s.swift */,
+				DF06F669FE82B241ADE38610FB5CC113 /* blake2s-ref.c */,
+				34FE0ACEC9E4999B9D75EA9F6AF866A5 /* Blake2sp.swift */,
+				DBD5628AA628C790D78B5C2FA4CF5FA7 /* blake2sp-ref.c */,
+				D3331FFADC6C72434B1272C95D4D9281 /* Blake2xb.swift */,
+				9C420DE529D2CD829634B77AC53BEB20 /* blake2xb-ref.c */,
+				1693AFDC9A82F860CFAC4F7160C201D3 /* Blake2xs.swift */,
+				57AFB4C72BC7B88E696ABB2A92E16C44 /* blake2xs-ref.c */,
+				3A0767616B7FB76260942388D48D6576 /* Support Files */,
+			);
+			name = Blake2;
+			path = Blake2;
+			sourceTree = "<group>";
+		};
+		A4075FC592039CECB8623F01002F9BFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFC53AA5616EE4930D33FDE1C6095D77 /* Base58Swift */,
+				CFC805F67B566777B890238F149A85AB /* BigInt */,
+				C32AE128C0ED703C5A1280F6ADFE0A3D /* Bip39.swift */,
+				96FA57840A8344B60C763572B547FF31 /* Blake2 */,
+				CDD0990911383C45ABE5A723F8C99102 /* Sr25519 */,
+				789CF861E4F988B520FB9729ECA03A7A /* UncommonCrypto */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B50B7EEEBF4891D26620FBBB9AB2FB5E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A455C04AFF4C279622406A2100D3860 /* Pods-T */,
+				CDB60E968B6141B90938B4F66F769D33 /* Pods-TTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B64F7575151E609DCED1F6FBB86A58F8 /* Sr25519 */ = {
+			isa = PBXGroup;
+			children = (
+				CA30737E0A579865D52DFA46FD1BD383 /* Sr25519ChainCode.swift */,
+				D8CDFE0EA6DDA5F27AAA4398B28F5D05 /* Sr25519Error.swift */,
+				F5D5B93D0BACACD8F7EAA9B0FD7C2B6B /* Sr25519Ext.swift */,
+				AB8365401EC20107854C31BA101A4CA4 /* Sr25519KeyPair.swift */,
+				9EA24510BBDB84DE955630E5D2EABB61 /* Sr25519PublicKey.swift */,
+				F733675B87D66D1154C50D228E02AF5C /* Sr25519Seed.swift */,
+				8C89FD881063D25E970908390D530E4A /* Sr25519Signature.swift */,
+				6012004DE72D51DEE6932E342D3E9299 /* Sr25519Vrf.swift */,
+			);
+			name = Sr25519;
+			sourceTree = "<group>";
+		};
+		BFC53AA5616EE4930D33FDE1C6095D77 /* Base58Swift */ = {
+			isa = PBXGroup;
+			children = (
+				053987A33C960AF53AD0BC004A752232 /* Base58.swift */,
+				765CF0E17E88B57CC0C2FF78014C5812 /* Support Files */,
+			);
+			name = Base58Swift;
+			path = Base58Swift;
+			sourceTree = "<group>";
+		};
+		C32AE128C0ED703C5A1280F6ADFE0A3D /* Bip39.swift */ = {
+			isa = PBXGroup;
+			children = (
+				0737CE0B117F9D5F5CE7522E7FD8DBAC /* Chinese.swift */,
+				5D0CD0EAFB812A5AEE695BCB9E02B1EE /* English.swift */,
+				D689AA148C6AD388D97E2543AFD0837F /* Mnemonic.swift */,
+				9325CB138C998F54FD850A409A4F00DA /* Wordlist.swift */,
+				02D47373F7B41AE91954B3215DAF84CC /* Support Files */,
+			);
+			name = Bip39.swift;
+			path = Bip39.swift;
+			sourceTree = "<group>";
+		};
+		CDB60E968B6141B90938B4F66F769D33 /* Pods-TTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E22B9AE4C1CDF4DF1486EBEA8712338 /* Pods-TTests.modulemap */,
+				EAC0469F4B1DBEA309B06C3AEB43B520 /* Pods-TTests-acknowledgements.markdown */,
+				9E30456653AE51757593A6B9A549EE9F /* Pods-TTests-acknowledgements.plist */,
+				70CB103D9038B7724BDF30611CD6FD20 /* Pods-TTests-dummy.m */,
+				0D16B187746153695AF61FB8B455E265 /* Pods-TTests-Info.plist */,
+				F0EABC6B8ECB232DA292ECAB160A4CA5 /* Pods-TTests-umbrella.h */,
+				00B3A05B7EFBCDB74B1907BF97D3A73C /* Pods-TTests.debug.xcconfig */,
+				06EBE06D0DDE18A72F9F4F7FFC5B9322 /* Pods-TTests.release.xcconfig */,
+			);
+			name = "Pods-TTests";
+			path = "Target Support Files/Pods-TTests";
+			sourceTree = "<group>";
+		};
+		CDD0990911383C45ABE5A723F8C99102 /* Sr25519 */ = {
+			isa = PBXGroup;
+			children = (
+				0218E62ACC4041E70ABD208B2973B105 /* CSr25519 */,
+				E28704B13FB999D68E50FFE242651672 /* Helpers */,
+				B64F7575151E609DCED1F6FBB86A58F8 /* Sr25519 */,
+				5FE9C712639B41AE3B62CC3BE933936D /* Support Files */,
+			);
+			name = Sr25519;
+			path = Sr25519;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A4075FC592039CECB8623F01002F9BFE /* Pods */,
+				E56CF58325E287D702DAE89E21D6131F /* Products */,
+				B50B7EEEBF4891D26620FBBB9AB2FB5E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC805F67B566777B890238F149A85AB /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				F9E17D362977F9B9E377408026BCB151 /* Addition.swift */,
+				A82327A487D885EA67451C20DAA24C0D /* BigInt.swift */,
+				DADEECAC20E6437D56CC8902D547F7F0 /* BigUInt.swift */,
+				7D9D457ED27EFCF4514CA93A037051B6 /* Bitwise Ops.swift */,
+				21D88FD4C87C2FDD0A0113770E933DEB /* Codable.swift */,
+				9FB98AF2B9CC1A623BA8FC9A1D7F8566 /* Comparable.swift */,
+				722013EED3607F2FF8FA83F8C3CC527F /* Data Conversion.swift */,
+				BE7D25474F1EFC4DC498FB9D9BC1E2C7 /* Division.swift */,
+				9A2E8A3F1F919BDA8072A69D3A4ADC5A /* Exponentiation.swift */,
+				BC831061C2C077795BB6AFA927707529 /* Floating Point Conversion.swift */,
+				AEB0FD8443B944F77CAA0ABFBA3864B6 /* GCD.swift */,
+				EB02CAB8D58258FF04EB7796F2805E3A /* Hashable.swift */,
+				BE00D89BC3B33666BD849597783A8470 /* Integer Conversion.swift */,
+				11348EF454256C2724C640D8746E01FB /* Multiplication.swift */,
+				B4D53770F007CEB1D0B6962A9F529706 /* Prime Test.swift */,
+				B4EA42AB6E451CB74D8875ED2F946A5B /* Random.swift */,
+				63AE9DC6B36EB06CDDD38FBDA9E9A8F8 /* Shifts.swift */,
+				E010897BF7E86AE8D2E8C641AA73F08D /* Square Root.swift */,
+				79127494255C5F5DB3BFD12E9A09A2A1 /* Strideable.swift */,
+				09AE4B741E8D2AC953E32D770831A6C1 /* String Conversion.swift */,
+				767291258B451E05385C7DA12D283178 /* Subtraction.swift */,
+				F4FEB58A2218A9C186F8F1A23622B34C /* Words and Bits.swift */,
+				E95A1B36CDC4102B11D1588155AB8C29 /* Support Files */,
+			);
+			name = BigInt;
+			path = BigInt;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E28704B13FB999D68E50FFE242651672 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9B2C2DB52A99B10181704E3FA02FE836 /* Random.swift */,
+				5639AE304020E565A9C093E6406D7657 /* TCArray.swift */,
+				BDADF3CA9FBB9EDCC589201E187FE59B /* TCArrayPointer.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E56CF58325E287D702DAE89E21D6131F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F8370DCFAA7EC21DF62907888C5636 /* Base58Swift */,
+				91BB24BA472AF523E913108C9AA301F2 /* BigInt */,
+				34178BB03FBBC0C7613BD3E99FC9FFA0 /* Bip39.swift */,
+				B50F971DBAC7D54B81AC7F3CA5567427 /* Blake2 */,
+				CB96FAA486A327F1B6F8EBACBA638A2E /* Pods-T */,
+				21A167CB953425B901C6B18D5ECC1D60 /* Pods-TTests */,
+				DC2A9A4870C4E0D7C2764FDC96E4A820 /* Sr25519 */,
+				6B6F0230A79FB386447959B46C59B38F /* UncommonCrypto */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E95A1B36CDC4102B11D1588155AB8C29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC520533DBB38C425B677E25852B35 /* BigInt.modulemap */,
+				BE0FDC6B4B24793409A289CB0BA7BAF7 /* BigInt-dummy.m */,
+				FAF6FD9C3D8C5608E732C2A89FA0A0E3 /* BigInt-Info.plist */,
+				36465B540C6508DE2D546314794A0A45 /* BigInt-prefix.pch */,
+				9175F86E21791548C10EE71C74ED1C3C /* BigInt-umbrella.h */,
+				2AA3EED3624C97B8C4E53901E0A872E6 /* BigInt.debug.xcconfig */,
+				9D5C4D07C7148B2BEA45F1EF25306285 /* BigInt.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BigInt";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09816CC0B6E78B81B9AF588514BC4C17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6448572EEC00835A04CD708F3F4CB16 /* Base58Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47864FA93CA6FD5E01F9F09662BA89D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05856A0718B89D15C57B25FF7059BC0C /* Pods-T-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D744B27B533406DEFC986B258EE8310 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161C4F31926DDFC0465337D0B62F3A4A /* Pods-TTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81016B801DD7713444CA50F779BA0613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A7C7CCAD862D98B881775DA7A71954 /* blake2.h in Headers */,
+				05C6EB9D998C805ADCF844EB3A4E66D1 /* blake2-impl.h in Headers */,
+				A96274802286BB17F0CADD46D549C551 /* Blake2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9165C805C4AAEFFF0C26B0B748436CDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1E36F469440D93A901A21E38EB4AA6 /* core.h in Headers */,
+				4699E4ED3355E4EAD903E7D204C46BCB /* curve25519-donna-32bit.h in Headers */,
+				45E5BC6063E545F80A3C606B52BB2073 /* curve25519-donna-64bit.h in Headers */,
+				2A0753795991E6A3A12912FCCFE8A709 /* curve25519-donna-helpers.h in Headers */,
+				3058068B16CD0D6430627BB04B32D09A /* curve25519-donna-sse2.h in Headers */,
+				8B8F79649F359B35FDDFE60AFA8E775E /* ed25519.h in Headers */,
+				2C0AA03692406DEBA7699250996CCB38 /* ed25519-donna.h in Headers */,
+				83CA38A33F669BCE24122ED22791EDED /* ed25519-donna-32bit-sse2.h in Headers */,
+				E445402A615E0A41B72D4D821D8057A3 /* ed25519-donna-32bit-tables.h in Headers */,
+				60873F6774859C1023AF3C305EF324A8 /* ed25519-donna-64bit-sse2.h in Headers */,
+				AF25B75F3F88838C64F5CCABDED8CAE0 /* ed25519-donna-64bit-tables.h in Headers */,
+				BAF339F75F063F047E90718FF63282F7 /* ed25519-donna-64bit-x86.h in Headers */,
+				D128580A638CDF7E4DF59848F9FCDC48 /* ed25519-donna-64bit-x86-32bit.h in Headers */,
+				4D90F41CFCF95EE4B2A31A80F3C64CA9 /* ed25519-donna-basepoint-table.h in Headers */,
+				5BEE6B807A616D5A15C176AAE6712758 /* ed25519-donna-batchverify.h in Headers */,
+				568F460613117555C74ED8174B52C2BF /* ed25519-donna-impl-base.h in Headers */,
+				3D5180C9DAF5FE193B22E27DE08F9BDA /* ed25519-donna-impl-sse2.h in Headers */,
+				EEC0DF4A3B4AD0EE176136CD9EC3DBBB /* ed25519-donna-portable.h in Headers */,
+				7399AB89C3E210CD36DD81845EBCCFB7 /* ed25519-donna-portable-identify.h in Headers */,
+				40A1E644104010753F97715036BAB2F9 /* ed25519-hash.h in Headers */,
+				EEBF83B2B10617A59A5E4B3E75054A61 /* ed25519-hash-custom.h in Headers */,
+				F39116CF9735807D201B6CCEE7EE4ACE /* ed25519-randombytes.h in Headers */,
+				E5B1E2ABF7C8AEC9DBE5DD62630B0990 /* ed25519-randombytes-custom.h in Headers */,
+				EB81BE2FC89828305D51A6D05A7176EC /* memzero.h in Headers */,
+				6EB37E3ACFFC3029E345858C2DF2C848 /* merlin.h in Headers */,
+				1F6BAD3CAA580D41005EBFE25E3044DE /* modm-donna-32bit.h in Headers */,
+				CE3512E89ED699873E2B0AD27E082187 /* modm-donna-64bit.h in Headers */,
+				0D6A61DEEC20BBF3149C267217915D10 /* randombytes_sysrandom.h in Headers */,
+				BC70FE298E1859BCA9F95611B0E44F20 /* regression.h in Headers */,
+				54FDFE66EE5303D7A2E505E7221B292F /* ristretto255.h in Headers */,
+				527F2C69533B3866914654E4E0087E35 /* sr25519.h in Headers */,
+				200F28B7D420CDFBF1D0FC59D063A4D5 /* sr25519-donna.h in Headers */,
+				F768B4FAF8F7DB4110076AEC70DB1192 /* sr25519-hash.h in Headers */,
+				78EA8C98B4EBEA0E23C6C728540E05BC /* sr25519-hash-custom.h in Headers */,
+				592B662954252BE38ED3E5ABA9C0E1DA /* sr25519-randombytes.h in Headers */,
+				E9FCA6A5C0BDE0FD1D6BDA372F572681 /* sr25519-randombytes-custom.h in Headers */,
+				886A303EE96A4B8C5D1A83519EB7A1E8 /* sr25519-randombytes-default.h in Headers */,
+				833A07B5A2B8D5925749E54A9981085A /* Sr25519-umbrella.h in Headers */,
+				3DE78FFA90799EC0E53121F6E0D7444E /* vrf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9998298C9A42336B487B1D59668B6F0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D48AD750C4D49AE9E475C78F150855B /* BigInt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42E58A17F95A078562B695D0D1BAD4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D8D118407192CE61DD26E26CC5813 /* hmac.h in Headers */,
+				B213F4B71A6A142EB3CC78B6B0402778 /* memzero.h in Headers */,
+				FA02B5E2CFFA34BCCA5CE74C440CB078 /* options.h in Headers */,
+				D5244FD3F38FEDA3D02727098B0D364D /* pbkdf2.h in Headers */,
+				E17BFA75A2FB1569A0C8DD7FCCD4ED35 /* sha2.h in Headers */,
+				A8C15B429E48AB1EFA3AF8669674720F /* sha3.h in Headers */,
+				7BF5DD82B179709EC7BB1DAA6F7E9E8F /* UncommonCrypto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C309FFBD992EC15176387B3E0C1C1866 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55907A4C9B7387EE21056CEC6833624 /* Bip39.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09DD83B7D075842A3A5105AD410BD38A /* BigInt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35ECD6F04CBE4EF3B696BCD472511195 /* Build configuration list for PBXNativeTarget "BigInt" */;
+			buildPhases = (
+				9998298C9A42336B487B1D59668B6F0A /* Headers */,
+				FC2B20C36B30F3B3BE32B68D6C3956B8 /* Sources */,
+				8AA2823C4F4278E4C3AFB7C38F51639E /* Frameworks */,
+				A945E422AFD2E1EC42FC6434B3214A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigInt;
+			productName = BigInt;
+			productReference = 91BB24BA472AF523E913108C9AA301F2 /* BigInt */;
+			productType = "com.apple.product-type.framework";
+		};
+		0BE9E64AA13AC5C466D0A556F4D15857 /* Base58Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E9E19636EF68DF8D7C98015513C8683 /* Build configuration list for PBXNativeTarget "Base58Swift" */;
+			buildPhases = (
+				09816CC0B6E78B81B9AF588514BC4C17 /* Headers */,
+				B9EDDFC026B9845CC13253AEB30A75BD /* Sources */,
+				215A2C3D3EF256DBDB34C86C9001D504 /* Frameworks */,
+				B7318F5CBD013025B5926C3B13BCC634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C74718684F6085BEBBF913EA746E80 /* PBXTargetDependency */,
+			);
+			name = Base58Swift;
+			productName = Base58Swift;
+			productReference = 05F8370DCFAA7EC21DF62907888C5636 /* Base58Swift */;
+			productType = "com.apple.product-type.framework";
+		};
+		442790FC561CF8FC8C555000A45C6C97 /* Blake2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9BCB875A0601E143F2D05FF4FD50B6 /* Build configuration list for PBXNativeTarget "Blake2" */;
+			buildPhases = (
+				81016B801DD7713444CA50F779BA0613 /* Headers */,
+				38CC4A924BE11AF1F8F6FB27E71C7316 /* Sources */,
+				8E3574A2F63D892A45ACC16293BE6CEF /* Frameworks */,
+				1647810DFE912CFCED6E32A2B83B2BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blake2;
+			productName = Blake2;
+			productReference = B50F971DBAC7D54B81AC7F3CA5567427 /* Blake2 */;
+			productType = "com.apple.product-type.framework";
+		};
+		6344E5B3CD3A4F8CC29536272CA6B04C /* Sr25519 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC20553B407B9A566AA41CC3D7A655C /* Build configuration list for PBXNativeTarget "Sr25519" */;
+			buildPhases = (
+				9165C805C4AAEFFF0C26B0B748436CDB /* Headers */,
+				9CF91A0C68B4214FF4B0BC2B723C57DF /* Sources */,
+				E313D08E75EE68324A70B406C01C797C /* Frameworks */,
+				45D5AA84DE9C0F0A809FE3AE60411349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A28BE0D597D7A3175435594501451C1 /* PBXTargetDependency */,
+			);
+			name = Sr25519;
+			productName = Sr25519;
+			productReference = DC2A9A4870C4E0D7C2764FDC96E4A820 /* Sr25519 */;
+			productType = "com.apple.product-type.framework";
+		};
+		BABC7D64C30F80A3F13297F279A5D44A /* Pods-TTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBC2468872D79279DB677C97EB096E1 /* Build configuration list for PBXNativeTarget "Pods-TTests" */;
+			buildPhases = (
+				4D744B27B533406DEFC986B258EE8310 /* Headers */,
+				75DD184E5C19FED67B33E3D9ED6DB198 /* Sources */,
+				4B0356E3941D3ED8B2BA04CD56A78635 /* Frameworks */,
+				C35D907989544CFA03304DE411AB4F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336673DF8E37C6E9378469E94A966968 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTests";
+			productName = Pods_TTests;
+			productReference = 21A167CB953425B901C6B18D5ECC1D60 /* Pods-TTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D295043CEF8EB0C96943B7E2A33D1DCA /* Pods-T */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14265CEE6209F0DCA3C979F44DEDCE90 /* Build configuration list for PBXNativeTarget "Pods-T" */;
+			buildPhases = (
+				47864FA93CA6FD5E01F9F09662BA89D7 /* Headers */,
+				7F91F6646726EF873CC362E63C108249 /* Sources */,
+				B3F20F58DCDFA7CAB1AC3E72C27D40C1 /* Frameworks */,
+				BC5F3A2515C04B74D655F4E2E7F41493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5EB9F8499C28D6E5F12D6A9B843D4DF /* PBXTargetDependency */,
+				6F2D09527D468877F3090564B44BB250 /* PBXTargetDependency */,
+				BF1D0B7F228CD25EFA07C2FEFCA0DC9C /* PBXTargetDependency */,
+				BCE7DA12EE32E55D4410A2A4B2101E5C /* PBXTargetDependency */,
+				9154101829E95D2CC3135CD7A3FF3790 /* PBXTargetDependency */,
+				EAE931E4DD09A522ABEE4750BA03BD3D /* PBXTargetDependency */,
+			);
+			name = "Pods-T";
+			productName = Pods_T;
+			productReference = CB96FAA486A327F1B6F8EBACBA638A2E /* Pods-T */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2D5C2C962EA99334067E6A53E72861F /* UncommonCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6102A5806017453AC2CD9EB5A05C2EA3 /* Build configuration list for PBXNativeTarget "UncommonCrypto" */;
+			buildPhases = (
+				A42E58A17F95A078562B695D0D1BAD4F /* Headers */,
+				2EB699A9603820415EADB2EA89096933 /* Sources */,
+				DA6801BC13E245C7D85935BBEED8F2DA /* Frameworks */,
+				ADEF5AB17A5E87E33229D977E8291E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UncommonCrypto;
+			productName = UncommonCrypto;
+			productReference = 6B6F0230A79FB386447959B46C59B38F /* UncommonCrypto */;
+			productType = "com.apple.product-type.framework";
+		};
+		E94C471322178C7292ACC8E75760A581 /* Bip39.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9E1DA97C2F23031E2F8B895D9F06CE /* Build configuration list for PBXNativeTarget "Bip39.swift" */;
+			buildPhases = (
+				C309FFBD992EC15176387B3E0C1C1866 /* Headers */,
+				064220A8F93C5406F72C5928B9DC2DE9 /* Sources */,
+				D2EEBC3E77EBC759AEDA40B358C8BF76 /* Frameworks */,
+				576D1B2D8557393237348CDAE60C8979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4C4C3788FD87C15138F3387820CE08 /* PBXTargetDependency */,
+			);
+			name = Bip39.swift;
+			productName = Bip39;
+			productReference = 34178BB03FBBC0C7613BD3E99FC9FFA0 /* Bip39.swift */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E56CF58325E287D702DAE89E21D6131F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BE9E64AA13AC5C466D0A556F4D15857 /* Base58Swift */,
+				09DD83B7D075842A3A5105AD410BD38A /* BigInt */,
+				E94C471322178C7292ACC8E75760A581 /* Bip39.swift */,
+				442790FC561CF8FC8C555000A45C6C97 /* Blake2 */,
+				D295043CEF8EB0C96943B7E2A33D1DCA /* Pods-T */,
+				BABC7D64C30F80A3F13297F279A5D44A /* Pods-TTests */,
+				6344E5B3CD3A4F8CC29536272CA6B04C /* Sr25519 */,
+				D2D5C2C962EA99334067E6A53E72861F /* UncommonCrypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1647810DFE912CFCED6E32A2B83B2BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D5AA84DE9C0F0A809FE3AE60411349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576D1B2D8557393237348CDAE60C8979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945E422AFD2E1EC42FC6434B3214A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEF5AB17A5E87E33229D977E8291E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7318F5CBD013025B5926C3B13BCC634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5F3A2515C04B74D655F4E2E7F41493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35D907989544CFA03304DE411AB4F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064220A8F93C5406F72C5928B9DC2DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC732D779CE825130C909E380492189 /* Bip39.swift-dummy.m in Sources */,
+				7A6E37AE5ADBFF0EA97AD44216930BED /* Chinese.swift in Sources */,
+				36677DBAA7DB5A73371F472828994741 /* English.swift in Sources */,
+				6D51CF5A22EE939A3F90B7DB9D5D1B80 /* Mnemonic.swift in Sources */,
+				5D76E2080B1441CC28FF90C58034D045 /* Wordlist.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB699A9603820415EADB2EA89096933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F0803A2175BF8F1417D4E16F449387 /* hmac.c in Sources */,
+				B06EE4C1F9297DB09F51ED76ED9A3A47 /* HMAC.swift in Sources */,
+				B76C801D53592A85E45CE51016DFE80F /* memzero.c in Sources */,
+				DFFCBA7B046D527DEAFA0227CF3B7073 /* pbkdf2.c in Sources */,
+				AD5EA7494247D45CE14ABE3D027A86AA /* PBKDF2.swift in Sources */,
+				7892F928CDDA5E707931CD8D288F548F /* SecureRandom.swift in Sources */,
+				F39D141155C1F7B0CD85A40D4E4B0AB7 /* SHA1.swift in Sources */,
+				9CB112A99D55F03BE9BE6A8D77F98C0F /* sha2.c in Sources */,
+				674C4C76817CBDA3B84AFA7291387277 /* SHA2.swift in Sources */,
+				B9CDBB04D4E71A61A91B3992E3FC9581 /* sha3.c in Sources */,
+				32652B0DE545AD226A77A374C8B21638 /* SHA3.swift in Sources */,
+				70D2E47F33DAD588A25142935A8034E4 /* UncommonCrypto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CC4A924BE11AF1F8F6FB27E71C7316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C8A32380B9DF5E1F690914E570A4F /* Blake2.swift in Sources */,
+				C39F9B1F8B1282E279F3E23438F2347C /* Blake2-dummy.m in Sources */,
+				3598FA840B6637D496804DBD0C0D3D2A /* Blake2b.swift in Sources */,
+				4442C912A9379A306799A9EFEE886CF0 /* blake2b-ref.c in Sources */,
+				26EFFAFFEF29D46D3EF5054DDFEB8D00 /* Blake2bp.swift in Sources */,
+				7CA74976D9D7D5B05BA28B0BB7A8E416 /* blake2bp-ref.c in Sources */,
+				80EAA41FD2987210092ACDA222F03274 /* Blake2s.swift in Sources */,
+				008F9301492A85917BEDA4127F47D391 /* blake2s-ref.c in Sources */,
+				AEF6F58E9B11F333E594DF4069673852 /* Blake2sp.swift in Sources */,
+				57CC0FA84717B38CA7534D0F99BEEFA2 /* blake2sp-ref.c in Sources */,
+				F5ABE53606E3DC51097A0DCF0F87A8A9 /* Blake2xb.swift in Sources */,
+				57F1E5F52746DC8F84D46ECCC97E560D /* blake2xb-ref.c in Sources */,
+				DFFAA8681ADBDAFF6B15989D5C0EAD1D /* Blake2xs.swift in Sources */,
+				ACCD7F6B7A52DDB1995BEC93982EAC8F /* blake2xs-ref.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DD184E5C19FED67B33E3D9ED6DB198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F6FEB53E5082BC08F266AFB77CBFCA /* Pods-TTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F91F6646726EF873CC362E63C108249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495A018AEBB2C4BEC37DAAFA8849DC61 /* Pods-T-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF91A0C68B4214FF4B0BC2B723C57DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFF43E64F82F0E26D586F9C4499CD15 /* core.c in Sources */,
+				F3F5FEAFDBB6FFDF23C6568192CF0684 /* ed25519.c in Sources */,
+				2CF9A27F97CE74218EE26120129F0402 /* memzero.c in Sources */,
+				B348A364AF887724DD29701F241B4621 /* merlin.c in Sources */,
+				EB715209575D336E23E20929D6BC1086 /* Random.swift in Sources */,
+				6140D63A9FB5081A927EDE3A5AD783FF /* randombytes_sysrandom.c in Sources */,
+				0B5158A71FBAD8898F383CA215AB2872 /* ristretto255.c in Sources */,
+				79AE9BDC44D06807313375F9C296D636 /* sr25519.c in Sources */,
+				FF68F533EBB97A80D9913167C0C29D1F /* Sr25519-dummy.m in Sources */,
+				03D97F8EFEE7F886159118D39393B39A /* sr25519-randombytes-default.c in Sources */,
+				1A92F5502283133C8F6BBC05A636DEC5 /* Sr25519ChainCode.swift in Sources */,
+				89E3A719FBCA8BAA4164192F88E645B5 /* Sr25519Error.swift in Sources */,
+				7D75F103DDF26C3DF207CD5708420773 /* Sr25519Ext.swift in Sources */,
+				443B4253849ED84E819948B7F03D3983 /* Sr25519KeyPair.swift in Sources */,
+				48D6A63746DF78C424D02F6FA8BE72E9 /* Sr25519PublicKey.swift in Sources */,
+				ABFD2754A25538D4C66D0EF8D465B0DD /* Sr25519Seed.swift in Sources */,
+				5E6CEDDC6904B3E1A614FC731DF7C1CA /* Sr25519Signature.swift in Sources */,
+				AFF6E7EC93E0AEC299E1F438EB7CC762 /* Sr25519Vrf.swift in Sources */,
+				E4A500C898F4922D5DDC4E07A6B321B5 /* TCArray.swift in Sources */,
+				EC60F0212E04A9BDB0C0FA39C1E72CCD /* TCArrayPointer.swift in Sources */,
+				C4931F5DCE20F2926D4FAAB6A35E09AC /* vrf.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EDDFC026B9845CC13253AEB30A75BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32F989FF843C18195860C954A198CB3 /* Base58.swift in Sources */,
+				8B01271594817564A75D9F334E5C1374 /* Base58Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2B20C36B30F3B3BE32B68D6C3956B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2746C94E2E3148BCFF4C0D1CB7C4DB1 /* Addition.swift in Sources */,
+				F048C2465CB3C593DC7BD0597C32564E /* BigInt.swift in Sources */,
+				7568E5A6D37E42E3C9D3C729038B1DCF /* BigInt-dummy.m in Sources */,
+				6973B3ADFF27B6DDE4FAB9E20DDA1218 /* BigUInt.swift in Sources */,
+				C183C4D84FC19BFD1150281653ABF10C /* Bitwise Ops.swift in Sources */,
+				3011735D056E4E771CE4B01B14852D86 /* Codable.swift in Sources */,
+				3B16F3C39FAC7D102F63A7CEB52AB824 /* Comparable.swift in Sources */,
+				B1BD0890BC1505005CF30620CBACCB3A /* Data Conversion.swift in Sources */,
+				368888B1FA51669A52A04E4C65E2CF6D /* Division.swift in Sources */,
+				BA8C2553126C14A78571AAABFE72280B /* Exponentiation.swift in Sources */,
+				95D273C694751DB12E240899DC42CA0E /* Floating Point Conversion.swift in Sources */,
+				52CC650CD019BFAC191208CD0D27C2E4 /* GCD.swift in Sources */,
+				E20D39024E5AA5B49BB420A0E7109788 /* Hashable.swift in Sources */,
+				AFA88B328CCCAD274E05DFA17D50A783 /* Integer Conversion.swift in Sources */,
+				748E4205926AE3A767B96594764DA374 /* Multiplication.swift in Sources */,
+				D1B4D3C34E83B1F411065FB92D36DC33 /* Prime Test.swift in Sources */,
+				5437E2657D6DF22E6980537D41736ECA /* Random.swift in Sources */,
+				15A303414BCF1D2D0BF01FF0B6A331F5 /* Shifts.swift in Sources */,
+				D6B605FDC364E4D2FC548B57B8BDB99B /* Square Root.swift in Sources */,
+				1344E60E2F3A8811C56AE2646BE160ED /* Strideable.swift in Sources */,
+				A4A74FFEE969F85D37ADFA0FE47AA263 /* String Conversion.swift in Sources */,
+				8133C7B44995A419AF7BDA7078267732 /* Subtraction.swift in Sources */,
+				BCEB7985D820CFEA474E087589C1F18F /* Words and Bits.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A28BE0D597D7A3175435594501451C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UncommonCrypto;
+			target = D2D5C2C962EA99334067E6A53E72861F /* UncommonCrypto */;
+			targetProxy = B69E0D1438E02C641AD5D1D80A8B85FA /* PBXContainerItemProxy */;
+		};
+		336673DF8E37C6E9378469E94A966968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-T";
+			target = D295043CEF8EB0C96943B7E2A33D1DCA /* Pods-T */;
+			targetProxy = 78000894CC9464A99547340B7176081E /* PBXContainerItemProxy */;
+		};
+		41C74718684F6085BEBBF913EA746E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigInt;
+			target = 09DD83B7D075842A3A5105AD410BD38A /* BigInt */;
+			targetProxy = E15642A5498D0376432D67193C2C16A4 /* PBXContainerItemProxy */;
+		};
+		6F2D09527D468877F3090564B44BB250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigInt;
+			target = 09DD83B7D075842A3A5105AD410BD38A /* BigInt */;
+			targetProxy = 49522EE4144E27262F00219D5515B6AD /* PBXContainerItemProxy */;
+		};
+		9154101829E95D2CC3135CD7A3FF3790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sr25519;
+			target = 6344E5B3CD3A4F8CC29536272CA6B04C /* Sr25519 */;
+			targetProxy = C256F6FA720068A5625DFF1F5DEEE91D /* PBXContainerItemProxy */;
+		};
+		BCE7DA12EE32E55D4410A2A4B2101E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Blake2;
+			target = 442790FC561CF8FC8C555000A45C6C97 /* Blake2 */;
+			targetProxy = F2AC30946938A7A86A145FC4ECBAF7A8 /* PBXContainerItemProxy */;
+		};
+		BE4C4C3788FD87C15138F3387820CE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UncommonCrypto;
+			target = D2D5C2C962EA99334067E6A53E72861F /* UncommonCrypto */;
+			targetProxy = 8E7F612C18E55F586E6EFA431C8C7169 /* PBXContainerItemProxy */;
+		};
+		BF1D0B7F228CD25EFA07C2FEFCA0DC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bip39.swift;
+			target = E94C471322178C7292ACC8E75760A581 /* Bip39.swift */;
+			targetProxy = 21DCDD87FF52B6F280FA48290D927441 /* PBXContainerItemProxy */;
+		};
+		C5EB9F8499C28D6E5F12D6A9B843D4DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Base58Swift;
+			target = 0BE9E64AA13AC5C466D0A556F4D15857 /* Base58Swift */;
+			targetProxy = 8BEA836981F131DB36A19F4CF17E2643 /* PBXContainerItemProxy */;
+		};
+		EAE931E4DD09A522ABEE4750BA03BD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UncommonCrypto;
+			target = D2D5C2C962EA99334067E6A53E72861F /* UncommonCrypto */;
+			targetProxy = AA47613B2483EA5D5BD5C7D695B336E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1577FFB375778F1ABFE170CF05AD837E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DAA73FEDB8F7DBBA87EF506D774F27 /* Bip39.swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bip39.swift/Bip39.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bip39.swift/Bip39.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Bip39.swift/Bip39.swift.modulemap";
+				PRODUCT_MODULE_NAME = Bip39;
+				PRODUCT_NAME = Bip39;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CE7E0B8BD8FA7832303DC7D21EEB519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29CF0EC75A29E46A9260D79F3AD6F6D /* Blake2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Blake2/Blake2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Blake2/Blake2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Blake2/Blake2.modulemap";
+				PRODUCT_MODULE_NAME = Blake2;
+				PRODUCT_NAME = Blake2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AC55A1B27BFFD8EE84730EC6892B162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B3A05B7EFBCDB74B1907BF97D3A73C /* Pods-TTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTests/Pods-TTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTests/Pods-TTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59D1C1184DECC691C661D925496660B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4B380FBEA44F90D2E69935B992A373 /* Sr25519.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sr25519/Sr25519-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sr25519/Sr25519-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Sr25519/Sr25519.modulemap";
+				PRODUCT_MODULE_NAME = Sr25519;
+				PRODUCT_NAME = Sr25519;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69F5648922BDB23D2B17359101A2E9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D256190680CE2885C5196249EB718A21 /* Blake2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Blake2/Blake2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Blake2/Blake2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Blake2/Blake2.modulemap";
+				PRODUCT_MODULE_NAME = Blake2;
+				PRODUCT_NAME = Blake2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EBC9CF1EF0B2E5DD13179E67E8A1CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDED4F924EBADF6EE1F1DDAAF9DCE838 /* Base58Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Base58Swift/Base58Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Base58Swift/Base58Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Base58Swift/Base58Swift.modulemap";
+				PRODUCT_MODULE_NAME = Base58Swift;
+				PRODUCT_NAME = Base58Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92DD3003919B47468525C1FB2CCFBECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C93ECC530B2D8F5F253FB9B92C4F3D /* Sr25519.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sr25519/Sr25519-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sr25519/Sr25519-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Sr25519/Sr25519.modulemap";
+				PRODUCT_MODULE_NAME = Sr25519;
+				PRODUCT_NAME = Sr25519;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99180B4DF06B3D3522C4658486AD93D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06EBE06D0DDE18A72F9F4F7FFC5B9322 /* Pods-TTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTests/Pods-TTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTests/Pods-TTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D6613D789B5F1E6AD57CFEA3D814101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E2CEA3C3DFE2F2176F853DCBE7E1C3 /* UncommonCrypto.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UncommonCrypto/UncommonCrypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UncommonCrypto/UncommonCrypto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UncommonCrypto/UncommonCrypto.modulemap";
+				PRODUCT_MODULE_NAME = UncommonCrypto;
+				PRODUCT_NAME = UncommonCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A387B0B896CD2B6585B804114A8C6C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0A28A7F35A186DB8A7AE9ED611EA34 /* Base58Swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Base58Swift/Base58Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Base58Swift/Base58Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Base58Swift/Base58Swift.modulemap";
+				PRODUCT_MODULE_NAME = Base58Swift;
+				PRODUCT_NAME = Base58Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD8BC07D5E23ACAC1EC0B6EC8B62BB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFA3F107B615E02CAD44AE153FF224B /* Pods-T.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-T/Pods-T-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-T/Pods-T.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3341FDE997F71562180942F9C16F8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C5AE8AAD5BF525AB0CEA36F21CF104 /* UncommonCrypto.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UncommonCrypto/UncommonCrypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UncommonCrypto/UncommonCrypto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UncommonCrypto/UncommonCrypto.modulemap";
+				PRODUCT_MODULE_NAME = UncommonCrypto;
+				PRODUCT_NAME = UncommonCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4A587782FBE505A5762052CB8BFF248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA3EED3624C97B8C4E53901E0A872E6 /* BigInt.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				PRODUCT_MODULE_NAME = BigInt;
+				PRODUCT_NAME = BigInt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9A751EA5475BE72B3458DA3CD0CC877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D37450DB520111E00C8ACEA86B75726 /* Pods-T.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-T/Pods-T-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-T/Pods-T.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF9FEA8C60E0C0593C80011392D82E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5C4D07C7148B2BEA45F1EF25306285 /* BigInt.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt/BigInt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				PRODUCT_MODULE_NAME = BigInt;
+				PRODUCT_NAME = BigInt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F597D32F4D3F619C20FD94E8BFE33328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464F9F9C79C46FCC4F8CC65097D1356E /* Bip39.swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bip39.swift/Bip39.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bip39.swift/Bip39.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Bip39.swift/Bip39.swift.modulemap";
+				PRODUCT_MODULE_NAME = Bip39;
+				PRODUCT_NAME = Bip39;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E9E19636EF68DF8D7C98015513C8683 /* Build configuration list for PBXNativeTarget "Base58Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBC9CF1EF0B2E5DD13179E67E8A1CEC /* Debug */,
+				A387B0B896CD2B6585B804114A8C6C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14265CEE6209F0DCA3C979F44DEDCE90 /* Build configuration list for PBXNativeTarget "Pods-T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8BC07D5E23ACAC1EC0B6EC8B62BB0A /* Debug */,
+				C9A751EA5475BE72B3458DA3CD0CC877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBC2468872D79279DB677C97EB096E1 /* Build configuration list for PBXNativeTarget "Pods-TTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC55A1B27BFFD8EE84730EC6892B162 /* Debug */,
+				99180B4DF06B3D3522C4658486AD93D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35ECD6F04CBE4EF3B696BCD472511195 /* Build configuration list for PBXNativeTarget "BigInt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A587782FBE505A5762052CB8BFF248 /* Debug */,
+				CF9FEA8C60E0C0593C80011392D82E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6102A5806017453AC2CD9EB5A05C2EA3 /* Build configuration list for PBXNativeTarget "UncommonCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6613D789B5F1E6AD57CFEA3D814101 /* Debug */,
+				B3341FDE997F71562180942F9C16F8D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9E1DA97C2F23031E2F8B895D9F06CE /* Build configuration list for PBXNativeTarget "Bip39.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1577FFB375778F1ABFE170CF05AD837E /* Debug */,
+				F597D32F4D3F619C20FD94E8BFE33328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C9BCB875A0601E143F2D05FF4FD50B6 /* Build configuration list for PBXNativeTarget "Blake2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F5648922BDB23D2B17359101A2E9EA /* Debug */,
+				2CE7E0B8BD8FA7832303DC7D21EEB519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC20553B407B9A566AA41CC3D7A655C /* Build configuration list for PBXNativeTarget "Sr25519" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D1C1184DECC691C661D925496660B7 /* Debug */,
+				92DD3003919B47468525C1FB2CCFBECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
