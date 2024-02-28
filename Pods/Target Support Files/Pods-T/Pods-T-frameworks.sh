@@ -180,16 +180,26 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Bip39.swift/Bip39.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Blake2/Blake2.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Sr25519/Sr25519.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UncommonCrypto/UncommonCrypto.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ed25519swift/ed25519swift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/keccak.c/keccak.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/secp256k1.swift/secp256k1.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/xxHash-Swift/xxHash_Swift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Base58Swift/Base58Swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Bip39.swift/Bip39.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Blake2/Blake2.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Sr25519/Sr25519.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UncommonCrypto/UncommonCrypto.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ed25519swift/ed25519swift.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/keccak.c/keccak.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/secp256k1.swift/secp256k1.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/xxHash-Swift/xxHash_Swift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

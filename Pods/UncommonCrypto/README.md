@@ -5,7 +5,7 @@
 [![Build Status](https://github.com/tesseract-one/UncommonCrypto.swift/workflows/Build%20&%20Tests/badge.svg?branch=main)](https://github.com/tesseract-one/UncommonCrypto.swift/actions/workflows/build.yml?query=branch%3Amain)
 [![GitHub release](https://img.shields.io/github/release/tesseract-one/UncommonCrypto.swift.svg)](https://github.com/tesseract-one/UncommonCrypto.swift/releases)
 [![SPM compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
-[![CocoaPods version](https://img.shields.io/cocoapods/v/UncommonCrypto.svg)](https://cocoapods.org/pods/UncommonCrypto)
+[![CocoaPods version](https://img.shields.io/cocoapods/v/UncommonCrypto.swift.svg)](https://cocoapods.org/pods/UncommonCrypto)
 ![Platform macOS | iOS | tvOS | watchOS | Linux](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20iOS%20%7C%20tvOS%20%7C%20watchOS-orange.svg)
 
 Wrapper over CommonCrypto with alternative C implementation for Linux.

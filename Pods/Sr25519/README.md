@@ -20,21 +20,21 @@ Setup instructions:
   Add this to the dependency section of your `Package.swift` manifest:
 
     ```Swift
-    .package(url: "https://github.com/tesseract-one/Sr25519.swift.git", from: "0.2.0")
+    .package(url: "https://github.com/tesseract-one/Sr25519.swift.git", from: "0.1.0")
     ```
 
 - **CocoaPods:** Put this in your `Podfile`:
 
     ```Ruby
-    pod 'Sr25519', '~> 0.2'
+    pod 'Sr25519', '~> 0.1'
     ```
   
 - **CocoaPods with Ed25519:**
   
   If you want to build Ed25519 part from sources add this in your `Podfile`:
     ```Ruby
-    pod 'Sr25519/Sr25519', '~> 0.2'
-    pod 'Sr25519/Ed25519', '~> 0.2'
+    pod 'Sr25519/Sr25519', '~> 0.1'
+    pod 'Sr25519/Ed25519', '~> 0.1'
     ```
 
 ## Usage Examples

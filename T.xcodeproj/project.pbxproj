@@ -27,6 +27,7 @@
 		4C5B01672AB3298D001CDDB3 /* Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B01662AB3298D001CDDB3 /* Signer.swift */; };
 		4C5B01692AB32F05001CDDB3 /* DefaultMnemonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B01682AB32F05001CDDB3 /* DefaultMnemonic.swift */; };
 		4C5B016B2AB32F11001CDDB3 /* DefaultMnemonicProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B016A2AB32F11001CDDB3 /* DefaultMnemonicProvider.swift */; };
+		4CDCBA852B4EC2B800BC34B0 /* EthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBA842B4EC2B800BC34B0 /* EthTest.swift */; };
 		4CF7BC0F2B4489F2006A4147 /* Hashing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7BC0E2B4489F2006A4147 /* Hashing.swift */; };
 		4CF7BC122B44A18C006A4147 /* SS58.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7BC112B44A18C006A4147 /* SS58.swift */; };
 		4CF7BC142B44A19B006A4147 /* AccountId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7BC132B44A19B006A4147 /* AccountId.swift */; };
@@ -80,6 +81,7 @@
 		4C5B01662AB3298D001CDDB3 /* Signer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signer.swift; sourceTree = "<group>"; };
 		4C5B01682AB32F05001CDDB3 /* DefaultMnemonic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMnemonic.swift; sourceTree = "<group>"; };
 		4C5B016A2AB32F11001CDDB3 /* DefaultMnemonicProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMnemonicProvider.swift; sourceTree = "<group>"; };
+		4CDCBA842B4EC2B800BC34B0 /* EthTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthTest.swift; sourceTree = "<group>"; };
 		4CF7BC0E2B4489F2006A4147 /* Hashing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashing.swift; sourceTree = "<group>"; };
 		4CF7BC112B44A18C006A4147 /* SS58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SS58.swift; sourceTree = "<group>"; };
 		4CF7BC132B44A19B006A4147 /* AccountId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountId.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				4C0BFCB12AAF3D7100B99276 /* TApp.swift */,
 				4C0BFCB32AAF3D7100B99276 /* ContentView.swift */,
+				4CDCBA842B4EC2B800BC34B0 /* EthTest.swift */,
 				4C5B01542AB326E4001CDDB3 /* SeedFactory.swift */,
 				4C5B01562AB326F5001CDDB3 /* SubstrateSeedFactory.swift */,
 				4C2F07E12B4488D400EEED18 /* Blake2b.swift */,
@@ -424,6 +427,7 @@
 				4C5B01612AB32818001CDDB3 /* KeyPair.swift in Sources */,
 				4C5B01592AB32705001CDDB3 /* Sr25519.swift in Sources */,
 				4C5B01692AB32F05001CDDB3 /* DefaultMnemonic.swift in Sources */,
+				4CDCBA852B4EC2B800BC34B0 /* EthTest.swift in Sources */,
 				4C5B015B2AB32714001CDDB3 /* Sr25519KeyPair.swift in Sources */,
 				4C5B01672AB3298D001CDDB3 /* Signer.swift in Sources */,
 				4CF7BC122B44A18C006A4147 /* SS58.swift in Sources */,
